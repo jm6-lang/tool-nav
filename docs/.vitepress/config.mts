@@ -7,7 +7,6 @@ export default defineConfig({
   lastUpdated: true,
 
   head: [
-    // 基础 Meta
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['meta', { name: 'author', content: 'tool.skillxm.cn' }],
@@ -17,7 +16,7 @@ export default defineConfig({
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'default' }],
 
-    // Open Graph（社交分享）
+    // Open Graph
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'AI工具导航' }],
     ['meta', { property: 'og:title', content: 'AI工具导航 - 最全AI工具与高频下载工具收录' }],
@@ -33,13 +32,8 @@ export default defineConfig({
     ['meta', { name: 'twitter:description', content: '聚合最实用的AI工具与高频下载工具，涵盖AI对话、AI图像、AI视频、AI写作、AI办公等分类。' }],
     ['meta', { name: 'twitter:image', content: 'https://tool.skillxm.cn/og-image.png' }],
 
-    // 重复内容防护
     ['link', { rel: 'canonical', href: 'https://tool.skillxm.cn/' }],
-
-    // 多语言声明
     ['link', { rel: 'alternate', hreflang: 'zh-CN', href: 'https://tool.skillxm.cn/' }],
-
-    // DNS 预取（国内常用域名）
     ['link', { rel: 'dns-prefetch', href: '//fonts.googleapis.com' }],
     ['link', { rel: 'dns-prefetch', href: '//openai.com' }],
   ],
@@ -80,6 +74,12 @@ export default defineConfig({
           ],
         },
       ],
+      '/tools/': [
+        {
+          text: '工具详情',
+          items: [],
+        },
+      ],
     },
 
     socialLinks: [
@@ -92,4 +92,7 @@ export default defineConfig({
   markdown: {
     lineNumbers: false,
   },
+
+  // 工具详情页可访问所有工具数据
+  sites: [],
 })
