@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# 禁止爬取管理页面（无此类页面，保持简洁）
+Disallow: /vp-resources/
+
+# Sitemap
+Sitemap: https://tool.skillxm.cn/sitemap.xml
+
+# 爬虫友好设置
+Crawl-delay: 1
