@@ -5,19 +5,19 @@ description: AI语音克隆和文字转语音，语音自然逼真，支持28种
 
 <div class="tool-header">
 
-<div class="tool-icon">🎵</div>
+<div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
 
 <div class="tool-info">
 <div class="tool-title-row">
 <h1 class="tool-title">ElevenLabs</h1>
-<span class="tool-tag" style="background:#dcfce7;color:#16a34a">免费试用</span>
+<span class="tool-tag" style="background:#fef9c3;color:#ca8a04">免费试用</span>
 </div>
 <div class="tool-cat">AI音频</div>
 </div>
 </div>
 
 <div class="redirect-notice">
-<div class="notice-icon">🔗</div>
+<div class="notice-icon"><img src="https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=128" alt="" class="notice-favicon" /></div>
 <div class="notice-body">
 <h3>即将离开 AI工具导航</h3>
 <p>您正在访问 <strong>elevenlabs.io</strong></p>

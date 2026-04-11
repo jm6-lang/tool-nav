@@ -5,7 +5,7 @@ description: 月之暗面AI助手，支持20万字超长上下文，擅长长文
 
 <div class="tool-header">
 
-<div class="tool-icon">💬</div>
+<div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=kimi.moonshot.cn&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
 
 <div class="tool-info">
 <div class="tool-title-row">
@@ -17,7 +17,7 @@ description: 月之暗面AI助手，支持20万字超长上下文，擅长长文
 </div>
 
 <div class="redirect-notice">
-<div class="notice-icon">🔗</div>
+<div class="notice-icon"><img src="https://www.google.com/s2/favicons?domain=kimi.moonshot.cn&sz=128" alt="" class="notice-favicon" /></div>
 <div class="notice-body">
 <h3>即将离开 AI工具导航</h3>
 <p>您正在访问 <strong>kimi.moonshot.cn</strong></p>

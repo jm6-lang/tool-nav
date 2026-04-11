@@ -5,7 +5,7 @@ description: Notion内置AI写作助手，笔记中直接调用AI，续写、总
 
 <div class="tool-header">
 
-<div class="tool-icon">✍️</div>
+<div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=notion.so&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
 
 <div class="tool-info">
 <div class="tool-title-row">
@@ -17,7 +17,7 @@ description: Notion内置AI写作助手，笔记中直接调用AI，续写、总
 </div>
 
 <div class="redirect-notice">
-<div class="notice-icon">🔗</div>
+<div class="notice-icon"><img src="https://www.google.com/s2/favicons?domain=notion.so&sz=128" alt="" class="notice-favicon" /></div>
 <div class="notice-body">
 <h3>即将离开 AI工具导航</h3>
 <p>您正在访问 <strong>notion.so</strong></p>

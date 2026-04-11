@@ -5,7 +5,7 @@ description: Quora旗下AI聚合平台，一站访问ChatGPT/Claude/GPT-4/Claude
 
 <div class="tool-header">
 
-<div class="tool-icon">💬</div>
+<div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=poe.com&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
 
 <div class="tool-info">
 <div class="tool-title-row">
@@ -17,7 +17,7 @@ description: Quora旗下AI聚合平台，一站访问ChatGPT/Claude/GPT-4/Claude
 </div>
 
 <div class="redirect-notice">
-<div class="notice-icon">🔗</div>
+<div class="notice-icon"><img src="https://www.google.com/s2/favicons?domain=poe.com&sz=128" alt="" class="notice-favicon" /></div>
 <div class="notice-body">
 <h3>即将离开 AI工具导航</h3>
 <p>您正在访问 <strong>poe.com</strong></p>

@@ -10,7 +10,13 @@
 
       <!-- 工具头 -->
       <header class="tool-header">
-        <div class="tool-icon">{{ frontmatter.icon }}</div>
+        <div class="tool-icon">
+          <img
+            :src="`https://www.google.com/s2/favicons?domain=${faviconDomain}&sz=128`"
+            alt=""
+            class="tool-favicon-img"
+          />
+        </div>
         <div class="tool-meta">
           <div class="tool-title-row">
             <h1 class="tool-title">{{ frontmatter.title }}</h1>
@@ -24,7 +30,13 @@
 
       <!-- 外部链接提示（先跳转到这里，用户确认后再跳转） -->
       <div class="redirect-notice">
-        <div class="notice-icon">🔗</div>
+        <div class="notice-icon">
+          <img
+            :src="`https://www.google.com/s2/favicons?domain=${faviconDomain}&sz=64`"
+            alt=""
+            class="notice-favicon"
+          />
+        </div>
         <div class="notice-content">
           <h3>即将离开 AI工具导航</h3>
           <p>您正在访问外部网站 <strong>{{ getHost(frontmatter.url) }}</strong></p>
@@ -93,6 +105,8 @@ const getHost = (url) => {
     return url
   }
 }
+
+const faviconDomain = computed(() => getHost(frontmatter.value.url))
 </script>
 
 <style scoped>
@@ -132,9 +146,23 @@ const getHost = (url) => {
 }
 
 .tool-icon {
-  font-size: 64px;
-  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+  width: 80px;
+  height: 80px;
+  border-radius: 18px;
+  background: var(--vp-c-bg-soft);
+  border: 2px solid var(--vp-c-divider);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.tool-favicon-img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
 }
 
 .tool-meta {
@@ -212,9 +240,22 @@ const getHost = (url) => {
 }
 
 .notice-icon {
-  font-size: 32px;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(251,146,60,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
-  margin-top: 2px;
+  overflow: hidden;
+  border: 1px solid rgba(251,146,60,0.2);
+}
+
+.notice-favicon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 
 .notice-content {

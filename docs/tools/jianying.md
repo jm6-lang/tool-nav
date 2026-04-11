@@ -5,7 +5,7 @@ description: 字节跳动视频剪辑，AI配音、智能字幕、画面优化�
 
 <div class="tool-header">
 
-<div class="tool-icon">🎵</div>
+<div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=www.capcut.cn&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
 
 <div class="tool-info">
 <div class="tool-title-row">
@@ -17,7 +17,7 @@ description: 字节跳动视频剪辑，AI配音、智能字幕、画面优化�
 </div>
 
 <div class="redirect-notice">
-<div class="notice-icon">🔗</div>
+<div class="notice-icon"><img src="https://www.google.com/s2/favicons?domain=www.capcut.cn&sz=128" alt="" class="notice-favicon" /></div>
 <div class="notice-body">
 <h3>即将离开 AI工具导航</h3>
 <p>您正在访问 <strong>www.jianying.com</strong></p>
