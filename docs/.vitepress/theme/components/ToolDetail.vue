@@ -12,7 +12,7 @@
       <header class="tool-header">
         <div class="tool-icon">
           <img
-            :src="`https://www.google.com/s2/favicons?domain=${faviconDomain}&sz=128`"
+            :src="`https://www.favicon.im/${faviconDomain}`"
             alt=""
             class="tool-favicon-img"
           />
@@ -32,7 +32,7 @@
       <div class="redirect-notice">
         <div class="notice-icon">
           <img
-            :src="`https://www.google.com/s2/favicons?domain=${faviconDomain}&sz=64`"
+            :src="`https://www.favicon.im/${faviconDomain}`"
             alt=""
             class="notice-favicon"
           />

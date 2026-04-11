@@ -119,7 +119,7 @@
           <div class="card-header">
             <div class="card-icon-wrap">
               <img
-                :src="`https://www.google.com/s2/favicons?domain=${toolDomain(tool.url)}&sz=64`"
+                :src="`https://www.favicon.im/${toolDomain(tool.url)}`"
                 :alt="tool.name + ' 图标'"
                 class="card-icon"
                 loading="lazy"
