@@ -119,10 +119,11 @@
           <div class="card-header">
             <div class="card-icon-wrap">
               <img
-                :src="`https://www.favicon.im/${toolDomain(tool.url)}`"
+                :src="`https://${toolDomain(tool.url)}/favicon.ico`"
                 :alt="tool.name + ' 图标'"
                 class="card-icon"
                 loading="lazy"
+                :data-domain="toolDomain(tool.url)"
                 @error="onFaviconError"
               />
             </div>
@@ -309,7 +310,12 @@ const toolDomain = (url) => {
   } catch { return '' }
 }
 const onFaviconError = (e) => {
-  e.target.style.display = 'none'
+  const domain = e.target.dataset.domain
+  if (domain) {
+    e.target.src = `https://favicon.im/${domain}`
+  } else {
+    e.target.style.display = 'none'
+  }
 }
 
 const tagClass = (tag) => {

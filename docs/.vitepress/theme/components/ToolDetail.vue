@@ -12,9 +12,10 @@
       <header class="tool-header">
         <div class="tool-icon">
           <img
-            :src="`https://www.favicon.im/${faviconDomain}`"
+            :src="`https://${faviconDomain}/favicon.ico`"
             alt=""
             class="tool-favicon-img"
+            @error="(e) => e.target.src = `https://favicon.im/${faviconDomain}`"
           />
         </div>
         <div class="tool-meta">
@@ -32,9 +33,10 @@
       <div class="redirect-notice">
         <div class="notice-icon">
           <img
-            :src="`https://www.favicon.im/${faviconDomain}`"
+            :src="`https://${faviconDomain}/favicon.ico`"
             alt=""
             class="notice-favicon"
+            @error="(e) => e.target.src = `https://favicon.im/${faviconDomain}`"
           />
         </div>
         <div class="notice-content">
