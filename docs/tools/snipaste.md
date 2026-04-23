@@ -1,12 +1,10 @@
 ---
 title: Snipaste
-description: 截图+贴图工具，截图、标注、贴图到屏幕最前端，效率神器。
+description: 截图+贴图效率工具，截图后可直接贴在屏幕最前端作为参考，内置标注工具（箭头、文字、马赛克），支持取色器和历史截图管理，提升工作效率的必备神器。
 ---
 
 <div class="tool-header">
-
 <div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=www.snipaste.com&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
-
 <div class="tool-info">
 <div class="tool-title-row">
 <h1 class="tool-title">Snipaste</h1>
@@ -29,79 +27,38 @@ description: 截图+贴图工具，截图、标注、贴图到屏幕最前端，
 </div>
 </div>
 
-截图+贴图工具，截图、标注、贴图到屏幕最前端，效率神器。
+## 工具简介
+
+Snipaste 是一款截图+贴图效率工具，将截图和贴图功能合二为一。截图后可以将截图直接"贴"在屏幕最前端，作为参考信息始终显示在其他窗口之上，非常适合需要对照参考资料工作的场景。内置标注工具支持箭头、文字、矩形、马赛克和高亮等标注，还提供取色器和历史截图管理功能。Snipaste 以简洁高效著称，是提升工作效率的必备神器。
 
 ## 核心功能
 
-- 支持多种使用场景
-- 持续更新功能列表
-- 访问官网获取完整功能介绍
+**截图+贴图** — 截图后可以直接贴在屏幕最前端，贴图始终显示在其他窗口之上，可以移动、缩放和旋转，作为参考信息使用。
 
-## 适用人群
+**标注工具** — 截图后可直接进行标注，支持箭头、文字、矩形、椭圆、马赛克、高亮和画笔等标注工具。
 
-各类用户均可使用，具体请参考官网说明。
+**取色器** — 内置屏幕取色器，可以获取屏幕上任意位置的颜色值，支持 HEX、RGB、HSL 等多种格式，设计师必备。
+
+**历史截图管理** — 自动保存历史截图记录，可以随时回看和复用之前的截图，支持钉图和分组管理。
+
+## 适用场景
+
+**对照参考资料工作** — 将参考资料截图贴在屏幕上，边看边工作，无需在窗口间来回切换，提升工作效率。
+
+**设计稿标注** — 设计师使用标注工具对设计稿进行批注和反馈，箭头和文字标注清晰直观。
+
+**取色与配色** — 设计师和前端开发者使用取色器获取屏幕上的颜色值，快速提取配色方案。
+
+## 使用技巧
+
+**设置快捷键** — 将截图快捷键设置为 F1，贴图快捷键设置为 F3，单手即可快速操作。
+
+## 优缺点简评
+
+**优势：** 截图贴图二合一、标注工具实用、取色器方便、历史记录管理、完全免费。
+
+**不足：** 仅支持Windows和macOS、高级功能需付费（如团队版）、贴图数量有限、更新较慢。
 
 <div class="tool-footer">
 <a href="https://www.snipaste.com" target="_blank" rel="noopener noreferrer" class="visit-btn">🔗 访问 Snipaste 官网</a>
 </div>
-
-<style>
-.tool-header {
-  display: flex; align-items: center; gap: 20px;
-  background: linear-gradient(135deg, rgba(30,136,229,0.06), rgba(156,39,176,0.04));
-  border: 1px solid var(--vp-c-divider); border-radius: 20px; padding: 28px 32px; margin-bottom: 24px;
-}
-.tool-icon { font-size: 56px; flex-shrink: 0; }
-.tool-info { flex: 1; }
-.tool-title-row { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
-.tool-title { font-size: 32px; font-weight: 800; color: var(--vp-c-text-1); margin: 0; letter-spacing: -0.5px; }
-.tool-tag { font-size: 11px; padding: 4px 12px; border-radius: 20px; font-weight: 600; }
-.tool-cat { display: inline-block; background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 4px 12px; font-size: 13px; color: var(--vp-c-text-2); }
-.redirect-notice {
-  display: flex; align-items: center; gap: 16px;
-  background: linear-gradient(135deg, #fff7ed, #ffedd5);
-  border: 1px solid #fed7aa; border-radius: 16px; padding: 16px 20px; margin-bottom: 28px;
-}
-[data-theme="dark"] .redirect-notice {
-  background: linear-gradient(135deg, rgba(251,146,60,0.08), rgba(251,146,60,0.04));
-  border-color: rgba(251,146,60,0.2);
-}
-.notice-icon { font-size: 28px; flex-shrink: 0; }
-.notice-body { flex: 1; }
-.notice-body h3 { font-size: 15px; font-weight: 700; color: var(--vp-c-text-1); margin: 0 0 4px; }
-.notice-body p { font-size: 13px; color: var(--vp-c-text-2); margin: 0 0 3px; }
-.notice-desc { font-size: 12px !important; color: var(--vp-c-text-3) !important; margin-top: 4px !important; }
-.notice-btn { display: flex; flex-direction: column; gap: 8px; flex-shrink: 0; }
-.btn-confirm {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: linear-gradient(135deg, #ea580c, #dc2626); color: #fff;
-  font-size: 13px; font-weight: 700; padding: 10px 18px;
-  border-radius: 10px; text-decoration: none; white-space: nowrap;
-  transition: all 0.2s; box-shadow: 0 4px 12px rgba(234,88,12,0.3);
-}
-.btn-confirm:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(234,88,12,0.4); }
-.btn-back {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: var(--vp-c-bg); color: var(--vp-c-text-2); font-size: 13px; font-weight: 500;
-  padding: 9px 14px; border-radius: 10px; border: 1px solid var(--vp-c-divider);
-  text-decoration: none; transition: all 0.2s; white-space: nowrap;
-}
-.btn-back:hover { border-color: var(--vp-c-brand-1); color: var(--vp-c-brand-1); }
-.tool-footer { margin-top: 36px; text-align: center; padding-top: 28px; border-top: 1px solid var(--vp-c-divider); }
-.visit-btn {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
-  color: #fff; font-size: 15px; font-weight: 700; padding: 13px 28px;
-  border-radius: 14px; text-decoration: none; transition: all 0.25s;
-  box-shadow: 0 6px 20px rgba(30,136,229,0.3);
-}
-.visit-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(30,136,229,0.4); }
-@media (max-width: 640px) {
-  .tool-header { padding: 20px; flex-direction: column; }
-  .tool-icon { font-size: 48px; }
-  .tool-title { font-size: 24px; }
-  .redirect-notice { flex-direction: column; }
-  .notice-btn { flex-direction: row; width: 100%; }
-  .btn-confirm, .btn-back { flex: 1; justify-content: center; }
-}
-</style>

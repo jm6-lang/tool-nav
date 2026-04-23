@@ -1,16 +1,14 @@
 ---
 title: Poe
-description: Quora旗下AI聚合平台，一站访问ChatGPT/Claude/GPT-4/Claude等多模型。
+description: Quora旗下AI聚合平台，一站集成ChatGPT、Claude、Gemini、Llama等主流大模型，支持自定义Bot创建和模型切换对比，提供统一的对话界面管理多个AI助手，免费额度每日更新。
 ---
 
 <div class="tool-header">
-
 <div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=poe.com&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
-
 <div class="tool-info">
 <div class="tool-title-row">
 <h1 class="tool-title">Poe</h1>
-<span class="tool-tag" style="background:#dcfce7;color:#16a34a">免费额度</span>
+<span class="tool-tag" style="background:#fef9c3;color:#ca8a04">免费额度</span>
 </div>
 <div class="tool-cat">AI对话</div>
 </div>
@@ -29,79 +27,38 @@ description: Quora旗下AI聚合平台，一站访问ChatGPT/Claude/GPT-4/Claude
 </div>
 </div>
 
-Quora旗下AI聚合平台，一站访问ChatGPT/Claude/GPT-4/Claude等多模型。
+## 工具简介
+
+Poe 是 Quora 推出的 AI 聚合平台，核心理念是让用户在一个界面中访问所有主流 AI 大模型。Poe 集成了 ChatGPT、Claude、Gemini、Llama、Mistral 等数十个 AI 模型，用户可以随时切换不同模型进行对话和对比。此外，Poe 支持用户创建自定义 Bot（基于提示词定制），并提供 API 接口供开发者调用。每日提供免费消息额度，是体验和对比不同 AI 模型的最佳平台。
 
 ## 核心功能
 
-- 支持多种使用场景
-- 持续更新功能列表
-- 访问官网获取完整功能介绍
+**多模型一站集成** — 集成 GPT-4o、Claude 3.5、Gemini Pro、Llama 3 等数十个主流模型，无需分别注册各平台账号，在一个界面中即可访问所有模型。
 
-## 适用人群
+**模型对比功能** — 支持将同一个问题同时发送给多个模型，并排查看不同模型的回答，方便对比各模型的能力差异和风格特点。
 
-各类用户均可使用，具体请参考官网说明。
+**自定义 Bot 创建** — 用户可以基于提示词创建自定义 Bot，设定系统提示词、知识库和欢迎语，打造专属的 AI 助手，还可以分享给其他用户使用。
+
+**多模态支持** — 支持图片上传和文件分析，部分模型支持语音输入，多模态能力覆盖文本、图像和语音。
+
+## 适用场景
+
+**AI模型对比评测** — 在做技术选型或模型评估时，使用 Poe 的对比功能同时测试多个模型的回答质量，高效做出选择。
+
+**自定义专业助手** — 创建针对特定领域的自定义 Bot（如法律顾问、翻译助手、代码审查员），通过精心设计的提示词提升输出质量。
+
+**日常多模型使用** — 根据任务类型灵活切换模型：用 Claude 写文章、用 GPT-4o 写代码、用 Gemini 分析图片，各取所长。
+
+## 使用技巧
+
+**创建自定义Bot** — 花时间精心设计 Bot 的系统提示词，明确角色定位、输出格式和约束条件，可以显著提升回答质量。
+
+## 优缺点简评
+
+**优势：** 多模型一站集成、模型对比功能独特、自定义Bot灵活、免费额度每日更新、界面简洁易用。
+
+**不足：** 免费额度有限（每个模型每日约10条）、高级模型需付费订阅、部分模型响应较慢、国内访问偶尔不稳定。
 
 <div class="tool-footer">
 <a href="https://poe.com" target="_blank" rel="noopener noreferrer" class="visit-btn">🔗 访问 Poe 官网</a>
 </div>
-
-<style>
-.tool-header {
-  display: flex; align-items: center; gap: 20px;
-  background: linear-gradient(135deg, rgba(30,136,229,0.06), rgba(156,39,176,0.04));
-  border: 1px solid var(--vp-c-divider); border-radius: 20px; padding: 28px 32px; margin-bottom: 24px;
-}
-.tool-icon { font-size: 56px; flex-shrink: 0; }
-.tool-info { flex: 1; }
-.tool-title-row { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
-.tool-title { font-size: 32px; font-weight: 800; color: var(--vp-c-text-1); margin: 0; letter-spacing: -0.5px; }
-.tool-tag { font-size: 11px; padding: 4px 12px; border-radius: 20px; font-weight: 600; }
-.tool-cat { display: inline-block; background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 4px 12px; font-size: 13px; color: var(--vp-c-text-2); }
-.redirect-notice {
-  display: flex; align-items: center; gap: 16px;
-  background: linear-gradient(135deg, #fff7ed, #ffedd5);
-  border: 1px solid #fed7aa; border-radius: 16px; padding: 16px 20px; margin-bottom: 28px;
-}
-[data-theme="dark"] .redirect-notice {
-  background: linear-gradient(135deg, rgba(251,146,60,0.08), rgba(251,146,60,0.04));
-  border-color: rgba(251,146,60,0.2);
-}
-.notice-icon { font-size: 28px; flex-shrink: 0; }
-.notice-body { flex: 1; }
-.notice-body h3 { font-size: 15px; font-weight: 700; color: var(--vp-c-text-1); margin: 0 0 4px; }
-.notice-body p { font-size: 13px; color: var(--vp-c-text-2); margin: 0 0 3px; }
-.notice-desc { font-size: 12px !important; color: var(--vp-c-text-3) !important; margin-top: 4px !important; }
-.notice-btn { display: flex; flex-direction: column; gap: 8px; flex-shrink: 0; }
-.btn-confirm {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: linear-gradient(135deg, #ea580c, #dc2626); color: #fff;
-  font-size: 13px; font-weight: 700; padding: 10px 18px;
-  border-radius: 10px; text-decoration: none; white-space: nowrap;
-  transition: all 0.2s; box-shadow: 0 4px 12px rgba(234,88,12,0.3);
-}
-.btn-confirm:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(234,88,12,0.4); }
-.btn-back {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: var(--vp-c-bg); color: var(--vp-c-text-2); font-size: 13px; font-weight: 500;
-  padding: 9px 14px; border-radius: 10px; border: 1px solid var(--vp-c-divider);
-  text-decoration: none; transition: all 0.2s; white-space: nowrap;
-}
-.btn-back:hover { border-color: var(--vp-c-brand-1); color: var(--vp-c-brand-1); }
-.tool-footer { margin-top: 36px; text-align: center; padding-top: 28px; border-top: 1px solid var(--vp-c-divider); }
-.visit-btn {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
-  color: #fff; font-size: 15px; font-weight: 700; padding: 13px 28px;
-  border-radius: 14px; text-decoration: none; transition: all 0.25s;
-  box-shadow: 0 6px 20px rgba(30,136,229,0.3);
-}
-.visit-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(30,136,229,0.4); }
-@media (max-width: 640px) {
-  .tool-header { padding: 20px; flex-direction: column; }
-  .tool-icon { font-size: 48px; }
-  .tool-title { font-size: 24px; }
-  .redirect-notice { flex-direction: column; }
-  .notice-btn { flex-direction: row; width: 100%; }
-  .btn-confirm, .btn-back { flex: 1; justify-content: center; }
-}
-</style>

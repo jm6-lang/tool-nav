@@ -1,12 +1,10 @@
 ---
 title: Tome
-description: AI幻灯片生成，以叙事为中心，支持嵌入3D模型、视频和网页。
+description: AI叙事型幻灯片生成工具，以讲故事为核心逻辑自动构建演示结构，支持嵌入3D模型、Figma设计稿、网页和视频等多媒体内容，提供协作编辑和分享功能，适合创意提案和产品路演。
 ---
 
 <div class="tool-header">
-
 <div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=tome.app&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
-
 <div class="tool-info">
 <div class="tool-title-row">
 <h1 class="tool-title">Tome</h1>
@@ -29,79 +27,38 @@ description: AI幻灯片生成，以叙事为中心，支持嵌入3D模型、视
 </div>
 </div>
 
-AI幻灯片生成，以叙事为中心，支持嵌入3D模型、视频和网页。
+## 工具简介
+
+Tome 是一款以叙事为核心的 AI 幻灯片生成工具，与传统 PPT 工具不同，Tome 以讲故事的方式构建演示结构，让内容更具感染力。支持嵌入 3D 模型、Figma 设计稿、网页、视频和 GIF 等多媒体内容，演示效果丰富生动。Tome 的 AI 助手可以根据主题自动生成演示内容，也支持用户手动编辑和协作，适合创意提案、产品路演和个人作品展示。
 
 ## 核心功能
 
-- 支持多种使用场景
-- 持续更新功能列表
-- 访问官网获取完整功能介绍
+**叙事驱动结构** — 以讲故事的方式自动构建演示结构，AI 生成的内容具有清晰的叙事线索和逻辑递进，比传统要点式 PPT 更有感染力。
 
-## 适用人群
+**富媒体嵌入** — 支持嵌入 3D 模型（可直接旋转交互）、Figma 设计稿、网页预览、视频和 GIF 等多媒体内容，演示效果丰富。
 
-各类用户均可使用，具体请参考官网说明。
+**AI 内容生成** — 内置 AI 助手可以根据主题自动生成幻灯片内容，包括文字描述、配图建议和页面布局。
+
+**协作与分享** — 支持多人协作编辑和在线分享，可生成精美的分享页面供他人查看，适合团队提案和客户展示。
+
+## 适用场景
+
+**创意提案与路演** — 利用叙事结构和富媒体嵌入制作创意提案，3D 模型和 Figma 设计稿的嵌入让展示更具冲击力。
+
+**个人作品集展示** — 设计师和创作者使用 Tome 制作在线作品集，嵌入设计稿和 3D 作品，展示效果专业生动。
+
+**产品故事讲述** — 用讲故事的方式展示产品理念和用户价值，比传统功能列表式 PPT 更能打动受众。
+
+## 使用技巧
+
+**嵌入交互式内容** — 善用 3D 模型和网页嵌入功能，让演示内容可交互，比静态幻灯片更具吸引力。
+
+## 优缺点简评
+
+**优势：** 叙事结构独特、富媒体嵌入强大、AI生成速度快、分享页面精美、协作功能完善。
+
+**不足：** 免费版功能有限、中文支持一般、模板数量不多、导出PPT格式受限。
 
 <div class="tool-footer">
 <a href="https://tome.app" target="_blank" rel="noopener noreferrer" class="visit-btn">🔗 访问 Tome 官网</a>
 </div>
-
-<style>
-.tool-header {
-  display: flex; align-items: center; gap: 20px;
-  background: linear-gradient(135deg, rgba(30,136,229,0.06), rgba(156,39,176,0.04));
-  border: 1px solid var(--vp-c-divider); border-radius: 20px; padding: 28px 32px; margin-bottom: 24px;
-}
-.tool-icon { font-size: 56px; flex-shrink: 0; }
-.tool-info { flex: 1; }
-.tool-title-row { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
-.tool-title { font-size: 32px; font-weight: 800; color: var(--vp-c-text-1); margin: 0; letter-spacing: -0.5px; }
-.tool-tag { font-size: 11px; padding: 4px 12px; border-radius: 20px; font-weight: 600; }
-.tool-cat { display: inline-block; background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 4px 12px; font-size: 13px; color: var(--vp-c-text-2); }
-.redirect-notice {
-  display: flex; align-items: center; gap: 16px;
-  background: linear-gradient(135deg, #fff7ed, #ffedd5);
-  border: 1px solid #fed7aa; border-radius: 16px; padding: 16px 20px; margin-bottom: 28px;
-}
-[data-theme="dark"] .redirect-notice {
-  background: linear-gradient(135deg, rgba(251,146,60,0.08), rgba(251,146,60,0.04));
-  border-color: rgba(251,146,60,0.2);
-}
-.notice-icon { font-size: 28px; flex-shrink: 0; }
-.notice-body { flex: 1; }
-.notice-body h3 { font-size: 15px; font-weight: 700; color: var(--vp-c-text-1); margin: 0 0 4px; }
-.notice-body p { font-size: 13px; color: var(--vp-c-text-2); margin: 0 0 3px; }
-.notice-desc { font-size: 12px !important; color: var(--vp-c-text-3) !important; margin-top: 4px !important; }
-.notice-btn { display: flex; flex-direction: column; gap: 8px; flex-shrink: 0; }
-.btn-confirm {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: linear-gradient(135deg, #ea580c, #dc2626); color: #fff;
-  font-size: 13px; font-weight: 700; padding: 10px 18px;
-  border-radius: 10px; text-decoration: none; white-space: nowrap;
-  transition: all 0.2s; box-shadow: 0 4px 12px rgba(234,88,12,0.3);
-}
-.btn-confirm:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(234,88,12,0.4); }
-.btn-back {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: var(--vp-c-bg); color: var(--vp-c-text-2); font-size: 13px; font-weight: 500;
-  padding: 9px 14px; border-radius: 10px; border: 1px solid var(--vp-c-divider);
-  text-decoration: none; transition: all 0.2s; white-space: nowrap;
-}
-.btn-back:hover { border-color: var(--vp-c-brand-1); color: var(--vp-c-brand-1); }
-.tool-footer { margin-top: 36px; text-align: center; padding-top: 28px; border-top: 1px solid var(--vp-c-divider); }
-.visit-btn {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
-  color: #fff; font-size: 15px; font-weight: 700; padding: 13px 28px;
-  border-radius: 14px; text-decoration: none; transition: all 0.25s;
-  box-shadow: 0 6px 20px rgba(30,136,229,0.3);
-}
-.visit-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(30,136,229,0.4); }
-@media (max-width: 640px) {
-  .tool-header { padding: 20px; flex-direction: column; }
-  .tool-icon { font-size: 48px; }
-  .tool-title { font-size: 24px; }
-  .redirect-notice { flex-direction: column; }
-  .notice-btn { flex-direction: row; width: 100%; }
-  .btn-confirm, .btn-back { flex: 1; justify-content: center; }
-}
-</style>

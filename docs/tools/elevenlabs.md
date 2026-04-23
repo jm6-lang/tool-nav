@@ -1,12 +1,10 @@
 ---
 title: ElevenLabs
-description: AI语音克隆和文字转语音，语音自然逼真，支持28种语言和多种声音风格。
+description: 业界领先的AI语音合成和克隆平台，支持29种语言和数百种预设音色，语音自然度和情感表达接近真人水平，提供语音克隆、变声器和API接口，被广泛应用于有声书、播客和视频配音。
 ---
 
 <div class="tool-header">
-
 <div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
-
 <div class="tool-info">
 <div class="tool-title-row">
 <h1 class="tool-title">ElevenLabs</h1>
@@ -29,79 +27,38 @@ description: AI语音克隆和文字转语音，语音自然逼真，支持28种
 </div>
 </div>
 
-AI语音克隆和文字转语音，语音自然逼真，支持28种语言和多种声音风格。
+## 工具简介
+
+ElevenLabs 是业界领先的 AI 语音合成和克隆平台，以极其自然的语音质量和丰富的情感表达著称。支持 29 种语言和数百种预设音色，语音的自然度、韵律感和情感表达接近真人水平，在 AI 语音领域处于绝对领先地位。提供语音克隆（Voice Cloning）、变声器（Voice Changer）和 API 接口，被广泛应用于有声书制作、播客配音、视频旁白和游戏角色配音等专业场景。
 
 ## 核心功能
 
-- 支持多种使用场景
-- 持续更新功能列表
-- 访问官网获取完整功能介绍
+**超自然语音合成** — 语音质量在 AI 领域处于领先地位，支持自然语调、情感变化和呼吸声模拟，生成的语音几乎无法与真人区分。
 
-## 适用人群
+**语音克隆** — 只需提供几分钟的音频样本即可克隆特定人的声音，克隆结果在音色和语调上高度还原，支持多语言克隆。
 
-各类用户均可使用，具体请参考官网说明。
+**多语言支持** — 支持 29 种语言的高质量语音合成，包括中文、英文、日文、韩文等主要语言，跨语言语音克隆效果出色。
+
+**API 与开发者工具** — 提供完善的 REST API 和 WebSocket API，支持流式语音合成和实时语音生成，方便开发者集成到应用中。
+
+## 适用场景
+
+**有声书与播客制作** — 使用高质量 AI 语音制作有声书和播客内容，大幅降低专业配音的成本，支持多角色和多情感表达。
+
+**视频与广告配音** — 为 YouTube 视频、广告和教程生成专业级旁白和配音，多语言支持方便制作多语种版本。
+
+**游戏与虚拟角色** — 为游戏角色和虚拟主播提供 AI 配音，语音克隆功能可以保持角色声音的一致性。
+
+## 使用技巧
+
+**微调语音参数** — 调整稳定性（Stability）和清晰度（Clarity+Similarity）参数可以优化语音效果，不同场景适合不同的参数组合。
+
+## 优缺点简评
+
+**优势：** 语音质量业界最自然、语音克隆效果好、多语言支持、API完善、情感表达丰富。
+
+**不足：** 免费额度有限（每月10000字符）、中文语音质量不及英文、克隆功能需付费、批量生成成本较高。
 
 <div class="tool-footer">
 <a href="https://elevenlabs.io" target="_blank" rel="noopener noreferrer" class="visit-btn">🔗 访问 ElevenLabs 官网</a>
 </div>
-
-<style>
-.tool-header {
-  display: flex; align-items: center; gap: 20px;
-  background: linear-gradient(135deg, rgba(30,136,229,0.06), rgba(156,39,176,0.04));
-  border: 1px solid var(--vp-c-divider); border-radius: 20px; padding: 28px 32px; margin-bottom: 24px;
-}
-.tool-icon { font-size: 56px; flex-shrink: 0; }
-.tool-info { flex: 1; }
-.tool-title-row { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
-.tool-title { font-size: 32px; font-weight: 800; color: var(--vp-c-text-1); margin: 0; letter-spacing: -0.5px; }
-.tool-tag { font-size: 11px; padding: 4px 12px; border-radius: 20px; font-weight: 600; }
-.tool-cat { display: inline-block; background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 4px 12px; font-size: 13px; color: var(--vp-c-text-2); }
-.redirect-notice {
-  display: flex; align-items: center; gap: 16px;
-  background: linear-gradient(135deg, #fff7ed, #ffedd5);
-  border: 1px solid #fed7aa; border-radius: 16px; padding: 16px 20px; margin-bottom: 28px;
-}
-[data-theme="dark"] .redirect-notice {
-  background: linear-gradient(135deg, rgba(251,146,60,0.08), rgba(251,146,60,0.04));
-  border-color: rgba(251,146,60,0.2);
-}
-.notice-icon { font-size: 28px; flex-shrink: 0; }
-.notice-body { flex: 1; }
-.notice-body h3 { font-size: 15px; font-weight: 700; color: var(--vp-c-text-1); margin: 0 0 4px; }
-.notice-body p { font-size: 13px; color: var(--vp-c-text-2); margin: 0 0 3px; }
-.notice-desc { font-size: 12px !important; color: var(--vp-c-text-3) !important; margin-top: 4px !important; }
-.notice-btn { display: flex; flex-direction: column; gap: 8px; flex-shrink: 0; }
-.btn-confirm {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: linear-gradient(135deg, #ea580c, #dc2626); color: #fff;
-  font-size: 13px; font-weight: 700; padding: 10px 18px;
-  border-radius: 10px; text-decoration: none; white-space: nowrap;
-  transition: all 0.2s; box-shadow: 0 4px 12px rgba(234,88,12,0.3);
-}
-.btn-confirm:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(234,88,12,0.4); }
-.btn-back {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: var(--vp-c-bg); color: var(--vp-c-text-2); font-size: 13px; font-weight: 500;
-  padding: 9px 14px; border-radius: 10px; border: 1px solid var(--vp-c-divider);
-  text-decoration: none; transition: all 0.2s; white-space: nowrap;
-}
-.btn-back:hover { border-color: var(--vp-c-brand-1); color: var(--vp-c-brand-1); }
-.tool-footer { margin-top: 36px; text-align: center; padding-top: 28px; border-top: 1px solid var(--vp-c-divider); }
-.visit-btn {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
-  color: #fff; font-size: 15px; font-weight: 700; padding: 13px 28px;
-  border-radius: 14px; text-decoration: none; transition: all 0.25s;
-  box-shadow: 0 6px 20px rgba(30,136,229,0.3);
-}
-.visit-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(30,136,229,0.4); }
-@media (max-width: 640px) {
-  .tool-header { padding: 20px; flex-direction: column; }
-  .tool-icon { font-size: 48px; }
-  .tool-title { font-size: 24px; }
-  .redirect-notice { flex-direction: column; }
-  .notice-btn { flex-direction: row; width: 100%; }
-  .btn-confirm, .btn-back { flex: 1; justify-content: center; }
-}
-</style>

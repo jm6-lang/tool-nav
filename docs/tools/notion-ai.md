@@ -1,12 +1,10 @@
 ---
 title: Notion AI
-description: Notion内置AI写作助手，笔记中直接调用AI，续写、总结、翻译、润色。
+description: Notion内置AI写作助手，可在文档、笔记和数据库中直接调用，支持内容续写、自动总结、翻译润色、提取要点和生成大纲，与Notion的知识库无缝集成，是知识工作者的高效写作伙伴。
 ---
 
 <div class="tool-header">
-
 <div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=notion.so&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
-
 <div class="tool-info">
 <div class="tool-title-row">
 <h1 class="tool-title">Notion AI</h1>
@@ -29,79 +27,38 @@ description: Notion内置AI写作助手，笔记中直接调用AI，续写、总
 </div>
 </div>
 
-Notion内置AI写作助手，笔记中直接调用AI，续写、总结、翻译、润色。
+## 工具简介
+
+Notion AI 是 Notion 工作空间内置的 AI 写作助手，深度集成在 Notion 的文档、笔记和数据库中。用户无需切换工具，在 Notion 页面中即可调用 AI 进行内容续写、自动总结、翻译润色、提取要点和生成大纲等操作。Notion AI 的最大优势是与 Notion 知识库的无缝集成——它可以基于你的笔记和文档内容进行回答和创作，实现真正的个性化 AI 写作体验。
 
 ## 核心功能
 
-- 支持多种使用场景
-- 持续更新功能列表
-- 访问官网获取完整功能介绍
+**文档内 AI 助手** — 在任何 Notion 页面中直接调用 AI，支持对选中文本进行续写、改写、翻译、总结和解释，无需离开当前工作环境。
 
-## 适用人群
+**知识库问答** — AI 可以基于你的 Notion 工作空间中的所有内容进行问答，快速检索和整合已有知识，实现个性化的信息获取。
 
-各类用户均可使用，具体请参考官网说明。
+**自动摘要与要点** — 对长篇文档、会议记录和文章自动生成摘要和关键要点提取，快速掌握核心内容。
+
+**多语言翻译与润色** — 支持多种语言之间的高质量翻译，并提供语气和风格调整功能，确保翻译结果符合目标语言的表达习惯。
+
+## 适用场景
+
+**知识管理增强** — 利用 AI 对大量笔记进行自动分类、标签和摘要，构建结构化的知识体系，提升知识管理效率。
+
+**会议纪要整理** — 将会议记录粘贴到 Notion 中，让 AI 自动整理为结构化的会议纪要，提取关键决策和待办事项。
+
+**内容创作工作流** — 在 Notion 中使用 AI 进行大纲生成、初稿撰写、内容润色和翻译的全流程创作，所有内容集中管理。
+
+## 使用技巧
+
+**使用问答功能检索知识** — 在 Notion 中使用 "Ask AI about this page" 功能，让 AI 基于你的笔记内容回答问题，比手动翻阅笔记高效得多。
+
+## 优缺点简评
+
+**优势：** 与Notion无缝集成、基于个人知识库回答、多语言翻译优秀、操作便捷、团队协作友好。
+
+**不足：** 需Notion AI附加订阅（$10/月）、独立使用价值有限、中文写作能力一般、免费额度极少。
 
 <div class="tool-footer">
 <a href="https://notion.so" target="_blank" rel="noopener noreferrer" class="visit-btn">🔗 访问 Notion AI 官网</a>
 </div>
-
-<style>
-.tool-header {
-  display: flex; align-items: center; gap: 20px;
-  background: linear-gradient(135deg, rgba(30,136,229,0.06), rgba(156,39,176,0.04));
-  border: 1px solid var(--vp-c-divider); border-radius: 20px; padding: 28px 32px; margin-bottom: 24px;
-}
-.tool-icon { font-size: 56px; flex-shrink: 0; }
-.tool-info { flex: 1; }
-.tool-title-row { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
-.tool-title { font-size: 32px; font-weight: 800; color: var(--vp-c-text-1); margin: 0; letter-spacing: -0.5px; }
-.tool-tag { font-size: 11px; padding: 4px 12px; border-radius: 20px; font-weight: 600; }
-.tool-cat { display: inline-block; background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 4px 12px; font-size: 13px; color: var(--vp-c-text-2); }
-.redirect-notice {
-  display: flex; align-items: center; gap: 16px;
-  background: linear-gradient(135deg, #fff7ed, #ffedd5);
-  border: 1px solid #fed7aa; border-radius: 16px; padding: 16px 20px; margin-bottom: 28px;
-}
-[data-theme="dark"] .redirect-notice {
-  background: linear-gradient(135deg, rgba(251,146,60,0.08), rgba(251,146,60,0.04));
-  border-color: rgba(251,146,60,0.2);
-}
-.notice-icon { font-size: 28px; flex-shrink: 0; }
-.notice-body { flex: 1; }
-.notice-body h3 { font-size: 15px; font-weight: 700; color: var(--vp-c-text-1); margin: 0 0 4px; }
-.notice-body p { font-size: 13px; color: var(--vp-c-text-2); margin: 0 0 3px; }
-.notice-desc { font-size: 12px !important; color: var(--vp-c-text-3) !important; margin-top: 4px !important; }
-.notice-btn { display: flex; flex-direction: column; gap: 8px; flex-shrink: 0; }
-.btn-confirm {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: linear-gradient(135deg, #ea580c, #dc2626); color: #fff;
-  font-size: 13px; font-weight: 700; padding: 10px 18px;
-  border-radius: 10px; text-decoration: none; white-space: nowrap;
-  transition: all 0.2s; box-shadow: 0 4px 12px rgba(234,88,12,0.3);
-}
-.btn-confirm:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(234,88,12,0.4); }
-.btn-back {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: var(--vp-c-bg); color: var(--vp-c-text-2); font-size: 13px; font-weight: 500;
-  padding: 9px 14px; border-radius: 10px; border: 1px solid var(--vp-c-divider);
-  text-decoration: none; transition: all 0.2s; white-space: nowrap;
-}
-.btn-back:hover { border-color: var(--vp-c-brand-1); color: var(--vp-c-brand-1); }
-.tool-footer { margin-top: 36px; text-align: center; padding-top: 28px; border-top: 1px solid var(--vp-c-divider); }
-.visit-btn {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
-  color: #fff; font-size: 15px; font-weight: 700; padding: 13px 28px;
-  border-radius: 14px; text-decoration: none; transition: all 0.25s;
-  box-shadow: 0 6px 20px rgba(30,136,229,0.3);
-}
-.visit-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(30,136,229,0.4); }
-@media (max-width: 640px) {
-  .tool-header { padding: 20px; flex-direction: column; }
-  .tool-icon { font-size: 48px; }
-  .tool-title { font-size: 24px; }
-  .redirect-notice { flex-direction: column; }
-  .notice-btn { flex-direction: row; width: 100%; }
-  .btn-confirm, .btn-back { flex: 1; justify-content: center; }
-}
-</style>

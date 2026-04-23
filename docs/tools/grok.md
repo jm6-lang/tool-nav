@@ -1,12 +1,10 @@
 ---
 title: Grok
-description: xAI推出的AI助手，接入X平台（Twitter）实时数据，风格独特，回答有深度。
+description: xAI推出的AI助手，深度集成X平台（原Twitter）实时数据流，可获取最新资讯和热点话题，回答风格幽默犀利，支持图像生成和代码编写，X Premium用户可免费使用。
 ---
 
 <div class="tool-header">
-
 <div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=x.com&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
-
 <div class="tool-info">
 <div class="tool-title-row">
 <h1 class="tool-title">Grok</h1>
@@ -29,79 +27,38 @@ description: xAI推出的AI助手，接入X平台（Twitter）实时数据，风
 </div>
 </div>
 
-xAI推出的AI助手，接入X平台（Twitter）实时数据，风格独特，回答有深度。
+## 工具简介
+
+Grok 是由 xAI（Elon Musk 创立）推出的 AI 助手，深度集成在 X 平台（原 Twitter）中。Grok 的最大特色是能够实时访问 X 平台的海量数据流，获取最新的新闻、热点话题和公众讨论，在时效性方面具有独特优势。Grok 的回答风格幽默犀利，支持图像生成（基于 Flux 模型）和代码编写功能。Grok 随 X Premium 和 Premium+ 订阅提供，适合需要实时信息和独特视角的用户。
 
 ## 核心功能
 
-- 支持多种使用场景
-- 持续更新功能列表
-- 访问官网获取完整功能介绍
+**实时数据接入** — 深度集成 X 平台实时数据流，可以获取最新的新闻事件、热点话题和公众讨论，回答具有极强的时效性，这是其他 AI 助手难以匹敌的优势。
 
-## 适用人群
+**幽默犀利的风格** — Grok 的回答风格独特，带有幽默感和讽刺意味，与 ChatGPT 等工具的"礼貌"风格形成鲜明对比，适合追求有趣互动体验的用户。
 
-各类用户均可使用，具体请参考官网说明。
+**图像生成能力** — 基于 Flux 模型提供图像生成功能，可以在对话中直接生成图片，质量较高且风格多样。
+
+**代码与数学能力** — 支持代码编写、调试和数学推理，Grok-2 在技术类任务上表现良好，适合开发者和工程师使用。
+
+## 适用场景
+
+**实时新闻追踪** — 关注突发事件和热点话题时，Grok 可以基于 X 平台的实时讨论提供最新信息和多角度分析，时效性远超传统 AI 助手。
+
+**社交媒体内容创作** — 利用 Grok 的实时数据理解能力和幽默风格，快速创作具有时效性和话题性的社交媒体内容。
+
+**技术问题求解** — 利用 Grok 的代码和数学能力进行技术问题求解和方案设计，回答风格直接高效。
+
+## 使用技巧
+
+**结合 X 平台使用** — 在 X 平台中直接使用 Grok，可以结合正在浏览的推文和话题进行深度讨论和分析，体验更佳。
+
+## 优缺点简评
+
+**优势：** 实时数据接入独特优势、回答风格有趣、图像生成质量高、X平台深度集成。
+
+**不足：** 需X Premium订阅（付费门槛高）、中文能力一般、国内无法直接访问、功能相对单一。
 
 <div class="tool-footer">
 <a href="https://x.com/i/grok" target="_blank" rel="noopener noreferrer" class="visit-btn">🔗 访问 Grok 官网</a>
 </div>
-
-<style>
-.tool-header {
-  display: flex; align-items: center; gap: 20px;
-  background: linear-gradient(135deg, rgba(30,136,229,0.06), rgba(156,39,176,0.04));
-  border: 1px solid var(--vp-c-divider); border-radius: 20px; padding: 28px 32px; margin-bottom: 24px;
-}
-.tool-icon { font-size: 56px; flex-shrink: 0; }
-.tool-info { flex: 1; }
-.tool-title-row { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
-.tool-title { font-size: 32px; font-weight: 800; color: var(--vp-c-text-1); margin: 0; letter-spacing: -0.5px; }
-.tool-tag { font-size: 11px; padding: 4px 12px; border-radius: 20px; font-weight: 600; }
-.tool-cat { display: inline-block; background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 4px 12px; font-size: 13px; color: var(--vp-c-text-2); }
-.redirect-notice {
-  display: flex; align-items: center; gap: 16px;
-  background: linear-gradient(135deg, #fff7ed, #ffedd5);
-  border: 1px solid #fed7aa; border-radius: 16px; padding: 16px 20px; margin-bottom: 28px;
-}
-[data-theme="dark"] .redirect-notice {
-  background: linear-gradient(135deg, rgba(251,146,60,0.08), rgba(251,146,60,0.04));
-  border-color: rgba(251,146,60,0.2);
-}
-.notice-icon { font-size: 28px; flex-shrink: 0; }
-.notice-body { flex: 1; }
-.notice-body h3 { font-size: 15px; font-weight: 700; color: var(--vp-c-text-1); margin: 0 0 4px; }
-.notice-body p { font-size: 13px; color: var(--vp-c-text-2); margin: 0 0 3px; }
-.notice-desc { font-size: 12px !important; color: var(--vp-c-text-3) !important; margin-top: 4px !important; }
-.notice-btn { display: flex; flex-direction: column; gap: 8px; flex-shrink: 0; }
-.btn-confirm {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: linear-gradient(135deg, #ea580c, #dc2626); color: #fff;
-  font-size: 13px; font-weight: 700; padding: 10px 18px;
-  border-radius: 10px; text-decoration: none; white-space: nowrap;
-  transition: all 0.2s; box-shadow: 0 4px 12px rgba(234,88,12,0.3);
-}
-.btn-confirm:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(234,88,12,0.4); }
-.btn-back {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: var(--vp-c-bg); color: var(--vp-c-text-2); font-size: 13px; font-weight: 500;
-  padding: 9px 14px; border-radius: 10px; border: 1px solid var(--vp-c-divider);
-  text-decoration: none; transition: all 0.2s; white-space: nowrap;
-}
-.btn-back:hover { border-color: var(--vp-c-brand-1); color: var(--vp-c-brand-1); }
-.tool-footer { margin-top: 36px; text-align: center; padding-top: 28px; border-top: 1px solid var(--vp-c-divider); }
-.visit-btn {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
-  color: #fff; font-size: 15px; font-weight: 700; padding: 13px 28px;
-  border-radius: 14px; text-decoration: none; transition: all 0.25s;
-  box-shadow: 0 6px 20px rgba(30,136,229,0.3);
-}
-.visit-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(30,136,229,0.4); }
-@media (max-width: 640px) {
-  .tool-header { padding: 20px; flex-direction: column; }
-  .tool-icon { font-size: 48px; }
-  .tool-title { font-size: 24px; }
-  .redirect-notice { flex-direction: column; }
-  .notice-btn { flex-direction: row; width: 100%; }
-  .btn-confirm, .btn-back { flex: 1; justify-content: center; }
-}
-</style>

@@ -119,18 +119,22 @@
           <div class="card-header">
             <div class="card-icon-wrap">
               <img
-                :src="`https://${toolDomain(tool.url)}/favicon.ico`"
+                :src="`https://www.google.com/s2/favicons?domain=${toolDomain(tool.url)}&sz=64`"
                 :alt="tool.name + ' 图标'"
                 class="card-icon"
                 loading="lazy"
                 :data-domain="toolDomain(tool.url)"
                 @error="onFaviconError"
               />
+              <span v-if="tool.hot" class="hot-badge">HOT</span>
             </div>
             <span class="card-tag" :class="tagClass(tool.tag)">{{ tool.tag }}</span>
           </div>
           <h2 class="card-name">{{ tool.name }}</h2>
           <p class="card-desc">{{ tool.desc }}</p>
+          <div class="card-tags" v-if="tool.tags && tool.tags.length">
+            <span class="card-tag-item" v-for="tag in tool.tags.slice(0, 3)" :key="tag">{{ tag }}</span>
+          </div>
           <div class="card-footer">
             <span class="card-cat">
               <span v-html="catSvg(tool.cat)"></span>
@@ -200,18 +204,25 @@ const onFaviconError = (e: Event) => {
   const target = e.target as HTMLImageElement
   const domain = target.dataset.domain
   if (domain) {
-    target.src = `https://www.google.com/s2/favicons?domain=${domain}&sz=64`
+    target.src = `https://favicon.im/${domain}`
     target.addEventListener('error', onFaviconSecondError, { once: true })
   } else {
-    target.style.display = 'none'
+    showFallback(target)
   }
 }
 
 const onFaviconSecondError = (e: Event) => {
   const target = e.target as HTMLImageElement
-  target.style.display = 'none'
-  const wrap = target.closest('.card-icon-wrap')
+  showFallback(target)
+}
+
+const showFallback = (img: HTMLImageElement) => {
+  img.style.display = 'none'
+  const wrap = img.closest('.card-icon-wrap')
   if (wrap) {
+    const name = img.alt?.replace(' 图标', '') || '?'
+    const letter = name.charAt(0).toUpperCase()
+    wrap.innerHTML = `<span class="fallback-letter">${letter}</span>`
     wrap.classList.add('fallback')
   }
 }
@@ -375,7 +386,7 @@ const tagClass = (tag: string): string => {
 .quick-tag.active { border-color: var(--vp-c-brand-1); color: var(--vp-c-brand-1); background: rgba(30,136,229,0.08); font-weight: 600; }
 
 /* 卡片网格 */
-.tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
+.tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
 
 .tool-card {
   position: relative; display: flex; flex-direction: column;
@@ -396,7 +407,7 @@ const tagClass = (tag: string): string => {
 
 .card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
 
-.card-icon-wrap {
+.card-icon-wrap { position: relative;
   width: 40px; height: 40px; border-radius: 10px;
   background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider);
   display: flex; align-items: center; justify-content: center;
@@ -411,12 +422,33 @@ const tagClass = (tag: string): string => {
 
 .card-icon-wrap.fallback {
   background: linear-gradient(135deg, #4F46E5, #7C3AED);
+  border-color: transparent;
 }
 .card-icon-wrap.fallback .card-icon {
   display: none;
 }
+.fallback-letter {
+  font-size: 18px;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
 
 .card-tag { font-size: 11px; padding: 4px 10px; border-radius: 20px; font-weight: 600; }
+.hot-badge {
+  position: absolute; top: -6px; right: -6px;
+  font-size: 9px; font-weight: 800; color: #fff;
+  background: linear-gradient(135deg, #f97316, #ef4444);
+  padding: 1px 5px; border-radius: 6px;
+  line-height: 1.4; letter-spacing: 0.5px;
+  box-shadow: 0 2px 6px rgba(249,115,22,0.4);
+}
+.card-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+.card-tag-item {
+  font-size: 11px; padding: 2px 8px; border-radius: 6px;
+  background: var(--vp-c-bg-soft); color: var(--vp-c-text-3);
+  border: 1px solid var(--vp-c-divider);
+}
 .tag-free, .tag-foss { background: linear-gradient(135deg, #dcfce7, #bbf7d0); color: #16a34a; }
 .tag-paid { background: linear-gradient(135deg, #fee2e2, #fecaca); color: #dc2626; }
 .tag-trial { background: linear-gradient(135deg, #fef9c3, #fef08a); color: #ca8a04; }
@@ -426,7 +458,7 @@ const tagClass = (tag: string): string => {
 .card-desc {
   font-size: 13px; color: var(--vp-c-text-2); margin: 0 0 16px; flex: 1;
   line-height: 1.6;
-  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+  display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
 }
 
 .card-footer {

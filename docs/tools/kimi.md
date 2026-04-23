@@ -1,16 +1,14 @@
 ---
 title: Kimi
-description: 月之暗面AI助手，支持20万字超长上下文，擅长长文阅读、资料整理和多轮对话。
+description: 月之暗面推出的AI助手，支持200万字超长上下文输入，可一次性阅读整本书或多篇长文档，擅长长文摘要、资料整理、论文分析和多轮深度对话，学术和办公场景表现突出。
 ---
 
 <div class="tool-header">
-
 <div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=kimi.moonshot.cn&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
-
 <div class="tool-info">
 <div class="tool-title-row">
 <h1 class="tool-title">Kimi</h1>
-<span class="tool-tag" style="background:#dcfce7;color:#16a34a">免费额度</span>
+<span class="tool-tag" style="background:#fef9c3;color:#ca8a04">免费额度</span>
 </div>
 <div class="tool-cat">AI对话</div>
 </div>
@@ -29,79 +27,40 @@ description: 月之暗面AI助手，支持20万字超长上下文，擅长长文
 </div>
 </div>
 
-月之暗面AI助手，支持20万字超长上下文，擅长长文阅读、资料整理和多轮对话。
+## 工具简介
+
+Kimi 是由月之暗面（Moonshot AI）推出的 AI 助手，其最大特色是支持 200 万字的超长上下文输入，是目前上下文窗口最长的中文 AI 助手之一。用户可以一次性上传整本书、多篇长文档或大量网页内容，Kimi 能够准确理解和分析这些内容，进行摘要提取、信息检索和深度问答。Kimi 在学术研究、文档分析和长文处理方面表现突出，是国内知识工作者和学术用户的首选 AI 工具。
 
 ## 核心功能
 
-- 支持多种使用场景
-- 持续更新功能列表
-- 访问官网获取完整功能介绍
+**200万字超长上下文** — 支持一次性输入约 200 万字的文本内容，相当于数十本书或上百篇论文的容量，在长文本理解和跨文档分析方面具有独特优势。
 
-## 适用人群
+**联网搜索与网页解析** — 支持联网搜索最新信息，可以解析网页内容并提取关键信息，将网络搜索结果与本地文档结合进行综合分析。
 
-各类用户均可使用，具体请参考官网说明。
+**文件上传与分析** — 支持上传 PDF、Word、Excel、PPT 等多种格式文件，可同时上传多个文件进行对比分析和综合问答。
+
+**精准引用来源** — 在回答中会标注信息来源（来自哪个文件的哪一页），方便用户追溯和验证信息的准确性。
+
+## 适用场景
+
+**学术论文分析** — 上传多篇 PDF 论文让 Kimi 进行文献综述、方法论对比和关键发现总结，超长上下文能力使其能同时分析大量文献。
+
+**长文档摘要与整理** — 将长篇报告、合同或技术文档上传给 Kimi 进行摘要提取和关键信息归纳，大幅提升文档处理效率。
+
+**行业研究与竞品分析** — 上传多份行业报告和竞品资料，让 Kimi 进行对比分析和趋势总结，辅助商业决策。
+
+## 使用技巧
+
+**分批上传大量文件** — 如果文件很多，可以分批上传并让 Kimi 分别分析，再进行综合对比，避免单次输入过多导致分析质量下降。
+
+**使用引用功能验证** — 关注 Kimi 回答中的引用标注，点击可跳转到原文对应位置，确保信息的准确性和上下文完整性。
+
+## 优缺点简评
+
+**优势：** 超长上下文能力业界领先、文件分析能力强、引用来源标注准确、中文理解优秀、学术场景表现出色。
+
+**不足：** 免费版有使用频率限制、代码生成能力一般、复杂数学推理较弱、高峰期响应速度较慢。
 
 <div class="tool-footer">
 <a href="https://kimi.moonshot.cn" target="_blank" rel="noopener noreferrer" class="visit-btn">🔗 访问 Kimi 官网</a>
 </div>
-
-<style>
-.tool-header {
-  display: flex; align-items: center; gap: 20px;
-  background: linear-gradient(135deg, rgba(30,136,229,0.06), rgba(156,39,176,0.04));
-  border: 1px solid var(--vp-c-divider); border-radius: 20px; padding: 28px 32px; margin-bottom: 24px;
-}
-.tool-icon { font-size: 56px; flex-shrink: 0; }
-.tool-info { flex: 1; }
-.tool-title-row { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
-.tool-title { font-size: 32px; font-weight: 800; color: var(--vp-c-text-1); margin: 0; letter-spacing: -0.5px; }
-.tool-tag { font-size: 11px; padding: 4px 12px; border-radius: 20px; font-weight: 600; }
-.tool-cat { display: inline-block; background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 4px 12px; font-size: 13px; color: var(--vp-c-text-2); }
-.redirect-notice {
-  display: flex; align-items: center; gap: 16px;
-  background: linear-gradient(135deg, #fff7ed, #ffedd5);
-  border: 1px solid #fed7aa; border-radius: 16px; padding: 16px 20px; margin-bottom: 28px;
-}
-[data-theme="dark"] .redirect-notice {
-  background: linear-gradient(135deg, rgba(251,146,60,0.08), rgba(251,146,60,0.04));
-  border-color: rgba(251,146,60,0.2);
-}
-.notice-icon { font-size: 28px; flex-shrink: 0; }
-.notice-body { flex: 1; }
-.notice-body h3 { font-size: 15px; font-weight: 700; color: var(--vp-c-text-1); margin: 0 0 4px; }
-.notice-body p { font-size: 13px; color: var(--vp-c-text-2); margin: 0 0 3px; }
-.notice-desc { font-size: 12px !important; color: var(--vp-c-text-3) !important; margin-top: 4px !important; }
-.notice-btn { display: flex; flex-direction: column; gap: 8px; flex-shrink: 0; }
-.btn-confirm {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: linear-gradient(135deg, #ea580c, #dc2626); color: #fff;
-  font-size: 13px; font-weight: 700; padding: 10px 18px;
-  border-radius: 10px; text-decoration: none; white-space: nowrap;
-  transition: all 0.2s; box-shadow: 0 4px 12px rgba(234,88,12,0.3);
-}
-.btn-confirm:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(234,88,12,0.4); }
-.btn-back {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: var(--vp-c-bg); color: var(--vp-c-text-2); font-size: 13px; font-weight: 500;
-  padding: 9px 14px; border-radius: 10px; border: 1px solid var(--vp-c-divider);
-  text-decoration: none; transition: all 0.2s; white-space: nowrap;
-}
-.btn-back:hover { border-color: var(--vp-c-brand-1); color: var(--vp-c-brand-1); }
-.tool-footer { margin-top: 36px; text-align: center; padding-top: 28px; border-top: 1px solid var(--vp-c-divider); }
-.visit-btn {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
-  color: #fff; font-size: 15px; font-weight: 700; padding: 13px 28px;
-  border-radius: 14px; text-decoration: none; transition: all 0.25s;
-  box-shadow: 0 6px 20px rgba(30,136,229,0.3);
-}
-.visit-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(30,136,229,0.4); }
-@media (max-width: 640px) {
-  .tool-header { padding: 20px; flex-direction: column; }
-  .tool-icon { font-size: 48px; }
-  .tool-title { font-size: 24px; }
-  .redirect-notice { flex-direction: column; }
-  .notice-btn { flex-direction: row; width: 100%; }
-  .btn-confirm, .btn-back { flex: 1; justify-content: center; }
-}
-</style>

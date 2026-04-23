@@ -1,10 +1,10 @@
 ---
 title: PowerToys
-description: 微软官方Windows增强工具集，包含PowerToys Run、FancyZones等实用功能。
+description: 微软官方Windows增强工具集，包含PowerToys Run快捷启动器、FancyZones窗口分屏管理、Color Picker取色器、PowerRename批量重命名和Keyboard Manager快捷键管理等十余款实用工具。
 ---
 
 <div class="tool-header">
-<div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=github.com/microsoft/PowerToys&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
+<div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=github.com&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
 <div class="tool-info">
 <div class="tool-title-row">
 <h1 class="tool-title">PowerToys</h1>
@@ -15,10 +15,10 @@ description: 微软官方Windows增强工具集，包含PowerToys Run、FancyZon
 </div>
 
 <div class="redirect-notice">
-<div class="notice-icon"><img src="https://www.google.com/s2/favicons?domain=github.com/microsoft/PowerToys&sz=128" alt="" class="notice-favicon" /></div>
+<div class="notice-icon"><img src="https://www.google.com/s2/favicons?domain=github.com&sz=128" alt="" class="notice-favicon" /></div>
 <div class="notice-body">
 <h3>即将离开 AI工具导航</h3>
-<p>您正在访问 <strong>github.com/microsoft/PowerToys</strong></p>
+<p>您正在访问 <strong>github.com</strong></p>
 <p class="notice-desc">我们已对目标网站进行基础审核，但不对其内容和服务负责。</p>
 </div>
 <div class="notice-btn">
@@ -29,28 +29,35 @@ description: 微软官方Windows增强工具集，包含PowerToys Run、FancyZon
 
 ## 工具简介
 
-PowerToys 是微软官方推出的 Windows 系统增强工具集，最初是 Windows 95 时代的经典工具，2019 年以开源形式重新发布。PowerToys 包含十余个实用工具模块，每个模块独立运行，用户可以按需启用。核心功能包括 PowerToys Run（快速启动器）、FancyZones（窗口管理）、PowerRename（批量重命名）、Color Picker（取色器）、Always on Top（窗口置顶）等，是 Windows 高效用户的必备工具箱。
+PowerToys 是微软官方推出的 Windows 系统增强工具集，包含十余款实用的小工具。核心功能包括 PowerToys Run（快捷启动器，类似 Alfred）、FancyZones（窗口分屏管理）、Color Picker（屏幕取色器）、PowerRename（批量重命名）、Keyboard Manager（快捷键管理）、File Locksmith（文件占用查询）和 Peek（快速预览文件）等。PowerToys 由微软官方维护，完全免费开源，是 Windows 高级用户的必备工具集。
 
 ## 核心功能
 
-**PowerToys Run 快速启动器** — 类似 macOS Spotlight 的快速启动器，Alt+Space 唤出，可以快速搜索启动应用、文件、系统设置，还支持计算器和单位换算。
-**FancyZones 窗口管理** — 自定义屏幕布局区域，将窗口拖拽到指定区域自动调整大小，实现高效的窗口管理和多任务操作。
-**PowerRename 批量重命名** — 使用正则表达式和搜索替换规则批量重命名文件和文件夹，支持预览效果，是文件整理的利器。
+**PowerToys Run** — Alt+Space 呼出快捷启动器，可以搜索启动应用、查找文件、执行计算和搜索网页，是 Windows 的 Spotlight/Alfred 替代品。
+
+**FancyZones** — 自定义窗口分屏布局，将屏幕划分为多个区域，拖拽窗口自动吸附到指定区域，多窗口管理效率极高。
+
+**Color Picker** — Win+Shift+C 快捷取色，获取屏幕任意位置的颜色值（HEX/RGB/HSL），设计师和前端开发者必备。
+
+**PowerRename** — 在资源管理器中批量重命名文件，支持正则表达式和搜索替换，批量修改文件名效率极高。
 
 ## 适用场景
 
-**高效办公操作** — 利用 PowerToys Run 快速启动应用、FancyZones 管理多窗口布局、Always on Top 保持参考窗口置顶，全面提升 Windows 操作效率。
-**开发与设计辅助** — 使用 Color Picker 快速取色、Keyboard Manager 自定义快捷键、File Locksmith 解锁被占用的文件，解决日常开发中的常见痛点。
+**多窗口分屏管理** — 使用 FancyZones 创建自定义分屏布局，拖拽窗口自动吸附，多任务处理效率倍增。
+
+**快速启动与搜索** — 使用 PowerToys Run 快速启动应用、搜索文件和执行计算，比开始菜单搜索更高效。
+
+**批量文件重命名** — 使用 PowerRename 批量修改文件名，支持正则表达式，适合整理大量文件。
 
 ## 使用技巧
 
-**按需启用模块** — PowerToys 的每个模块都可以独立启用和禁用，建议只开启自己常用的模块，避免占用过多系统资源。
+**开启常用模块** — 在设置中选择需要启用的模块（建议至少开启 Run、FancyZones 和 Color Picker），避免不必要的资源占用。
 
 ## 优缺点简评
 
-**优势：** 微软官方出品、完全免费开源、功能实用丰富、持续更新、社区活跃。
+**优势：** 微软官方维护、完全免费开源、功能实用丰富、与Windows深度集成、持续更新。
 
-**不足：** 仅支持 Windows 10/11、部分功能与第三方软件冲突、占用一定系统资源、部分模块功能较简单。
+**不足：** 部分功能需要学习、偶尔有兼容性问题、设置界面较复杂、资源占用随功能增加。
 
 <div class="tool-footer">
 <a href="https://github.com/microsoft/PowerToys" target="_blank" rel="noopener noreferrer" class="visit-btn">🔗 访问 PowerToys 官网</a>

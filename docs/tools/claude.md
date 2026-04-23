@@ -1,16 +1,14 @@
 ---
 title: Claude
-description: Anthropic开发，安全性强，支持100K上下文窗口，深度写作和复杂分析首选。
+description: Anthropic旗下AI助手，搭载Claude 3.5 Sonnet模型，支持200K超长上下文窗口，在代码生成、学术写作和复杂推理方面表现卓越，以安全性和准确性著称，适合深度分析任务。
 ---
 
 <div class="tool-header">
-
 <div class="tool-icon"><img src="https://www.google.com/s2/favicons?domain=claude.ai&sz=128" alt="" class="tool-favicon-img" loading="lazy" /></div>
-
 <div class="tool-info">
 <div class="tool-title-row">
 <h1 class="tool-title">Claude</h1>
-<span class="tool-tag" style="background:#dcfce7;color:#16a34a">免费额度</span>
+<span class="tool-tag" style="background:#fef9c3;color:#ca8a04">免费额度</span>
 </div>
 <div class="tool-cat">AI对话</div>
 </div>
@@ -29,79 +27,40 @@ description: Anthropic开发，安全性强，支持100K上下文窗口，深度
 </div>
 </div>
 
-Anthropic开发，安全性强，支持100K上下文窗口，深度写作和复杂分析首选。
+## 工具简介
+
+Claude 是由 Anthropic 公司开发的 AI 对话助手，以安全性和可靠性为核心设计理念。最新版本搭载 Claude 3.5 Sonnet 模型，在代码生成、学术写作、多语言翻译和复杂推理方面表现卓越，支持 200K token 超长上下文窗口，可一次性处理大量文档内容。Claude 以拒绝生成有害内容、减少幻觉输出著称，是企业用户和学术研究者的信赖之选。
 
 ## 核心功能
 
-- 支持多种使用场景
-- 持续更新功能列表
-- 访问官网获取完整功能介绍
+**超长上下文理解** — 支持 200K token 的上下文窗口，可一次性阅读整本书、分析大量代码文件或处理长篇法律文档，在长文本理解和信息提取方面表现优异。
 
-## 适用人群
+**Claude Artifacts 交互** — 支持生成可交互的代码片段、HTML 页面、SVG 图表和文档等 Artifacts，用户可以直接在对话中预览和迭代修改，实现"边聊边做"的全新交互体验。
 
-各类用户均可使用，具体请参考官网说明。
+**Projects 项目管理** — 支持创建项目空间，上传自定义知识库文件（PDF、代码、文档），Claude 会基于项目上下文进行回答，适合团队协作和专业知识问答场景。
+
+**多模态能力** — 支持图片上传和分析，可识别图表、解读截图、分析设计稿，结合文本对话实现图文混合的深度交互。
+
+## 适用场景
+
+**学术研究与论文写作** — 上传多篇 PDF 论文让 Claude 进行文献综述、方法论对比和关键发现总结，长上下文能力使其在学术分析场景中表现突出。
+
+**代码开发与审查** — 粘贴代码让 Claude 进行 Code Review、Bug 分析和重构建议，支持多种编程语言，代码生成质量在同类模型中名列前茅。
+
+**长文档处理** — 将长篇合同、技术文档或报告上传给 Claude 进行摘要、关键条款提取和风险分析，比人工阅读效率提升数倍。
+
+## 使用技巧
+
+**使用 Artifacts 快速原型** — 让 Claude 生成 HTML/CSS/JS 代码片段作为 Artifact，可直接预览效果并迭代修改，适合快速验证 UI 设计和交互方案。
+
+**善用 Projects 功能** — 将项目相关文档集中到一个 Project 中，Claude 的回答会基于这些上下文，避免反复粘贴背景信息，大幅提升对话效率。
+
+## 优缺点简评
+
+**优势：** 模型安全性高、幻觉率低，长上下文处理能力业界领先，代码生成和学术写作质量出色，Artifacts 交互体验创新。
+
+**不足：** 国内无法直接访问（需科学上网），免费版存在使用频率限制，部分中文场景理解不及国产模型。
 
 <div class="tool-footer">
 <a href="https://claude.ai" target="_blank" rel="noopener noreferrer" class="visit-btn">🔗 访问 Claude 官网</a>
 </div>
-
-<style>
-.tool-header {
-  display: flex; align-items: center; gap: 20px;
-  background: linear-gradient(135deg, rgba(30,136,229,0.06), rgba(156,39,176,0.04));
-  border: 1px solid var(--vp-c-divider); border-radius: 20px; padding: 28px 32px; margin-bottom: 24px;
-}
-.tool-icon { font-size: 56px; flex-shrink: 0; }
-.tool-info { flex: 1; }
-.tool-title-row { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
-.tool-title { font-size: 32px; font-weight: 800; color: var(--vp-c-text-1); margin: 0; letter-spacing: -0.5px; }
-.tool-tag { font-size: 11px; padding: 4px 12px; border-radius: 20px; font-weight: 600; }
-.tool-cat { display: inline-block; background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 4px 12px; font-size: 13px; color: var(--vp-c-text-2); }
-.redirect-notice {
-  display: flex; align-items: center; gap: 16px;
-  background: linear-gradient(135deg, #fff7ed, #ffedd5);
-  border: 1px solid #fed7aa; border-radius: 16px; padding: 16px 20px; margin-bottom: 28px;
-}
-[data-theme="dark"] .redirect-notice {
-  background: linear-gradient(135deg, rgba(251,146,60,0.08), rgba(251,146,60,0.04));
-  border-color: rgba(251,146,60,0.2);
-}
-.notice-icon { font-size: 28px; flex-shrink: 0; }
-.notice-body { flex: 1; }
-.notice-body h3 { font-size: 15px; font-weight: 700; color: var(--vp-c-text-1); margin: 0 0 4px; }
-.notice-body p { font-size: 13px; color: var(--vp-c-text-2); margin: 0 0 3px; }
-.notice-desc { font-size: 12px !important; color: var(--vp-c-text-3) !important; margin-top: 4px !important; }
-.notice-btn { display: flex; flex-direction: column; gap: 8px; flex-shrink: 0; }
-.btn-confirm {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: linear-gradient(135deg, #ea580c, #dc2626); color: #fff;
-  font-size: 13px; font-weight: 700; padding: 10px 18px;
-  border-radius: 10px; text-decoration: none; white-space: nowrap;
-  transition: all 0.2s; box-shadow: 0 4px 12px rgba(234,88,12,0.3);
-}
-.btn-confirm:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(234,88,12,0.4); }
-.btn-back {
-  display: inline-flex; align-items: center; justify-content: center;
-  background: var(--vp-c-bg); color: var(--vp-c-text-2); font-size: 13px; font-weight: 500;
-  padding: 9px 14px; border-radius: 10px; border: 1px solid var(--vp-c-divider);
-  text-decoration: none; transition: all 0.2s; white-space: nowrap;
-}
-.btn-back:hover { border-color: var(--vp-c-brand-1); color: var(--vp-c-brand-1); }
-.tool-footer { margin-top: 36px; text-align: center; padding-top: 28px; border-top: 1px solid var(--vp-c-divider); }
-.visit-btn {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
-  color: #fff; font-size: 15px; font-weight: 700; padding: 13px 28px;
-  border-radius: 14px; text-decoration: none; transition: all 0.25s;
-  box-shadow: 0 6px 20px rgba(30,136,229,0.3);
-}
-.visit-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(30,136,229,0.4); }
-@media (max-width: 640px) {
-  .tool-header { padding: 20px; flex-direction: column; }
-  .tool-icon { font-size: 48px; }
-  .tool-title { font-size: 24px; }
-  .redirect-notice { flex-direction: column; }
-  .notice-btn { flex-direction: row; width: 100%; }
-  .btn-confirm, .btn-back { flex: 1; justify-content: center; }
-}
-</style>

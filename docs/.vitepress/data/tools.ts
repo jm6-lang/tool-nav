@@ -29,132 +29,132 @@ export const categories = [
 // 工具数据
 export const tools = [
   // ===== AI 对话 =====
-  { id: 'chatgpt', name: 'ChatGPT', desc: 'OpenAI最强对话AI，支持GPT-4和GPT-4o，多模态、代码生成、创意写作，全球最流行AI工具。', cat: 'chatbot', url: 'https://chat.openai.com', tag: '免费可用' },
-  { id: 'claude', name: 'Claude', desc: 'Anthropic开发，安全性强，支持100K上下文窗口，深度写作和复杂分析首选。', cat: 'chatbot', url: 'https://claude.ai', tag: '免费额度' },
-  { id: 'qianwen', name: '通义千问', desc: '阿里云自研大模型，支持中文深度对话、代码编写、知识问答，稳定可靠。', cat: 'chatbot', url: 'https://qianwen.aliyun.com', tag: '免费可用' },
-  { id: 'doubao', name: '豆包', desc: '字节跳动AI助手，智能对话、写作辅助、图片生成，集成抖音飞书生态。', cat: 'chatbot', url: 'https://www.doubao.com', tag: '免费' },
-  { id: 'yiyan', name: '文心一言', desc: '百度文心大模型，擅长中文理解生成，覆盖写作、问答、代码等多种场景。', cat: 'chatbot', url: 'https://yiyan.baidu.com', tag: '免费' },
-  { id: 'kimi', name: 'Kimi', desc: '月之暗面AI助手，支持20万字超长上下文，擅长长文阅读、资料整理和多轮对话。', cat: 'chatbot', url: 'https://kimi.moonshot.cn', tag: '免费额度' },
-  { id: 'deepseek', name: 'DeepSeek', desc: '国产开源大模型，代码能力强，成本低，支持超长上下文，开发者首选。', cat: 'chatbot', url: 'https://www.deepseek.com', tag: '免费开源' },
-  { id: 'grok', name: 'Grok', desc: 'xAI推出的AI助手，接入X平台（Twitter）实时数据，风格独特，回答有深度。', cat: 'chatbot', url: 'https://x.com/i/grok', tag: '付费' },
-  { id: 'poe', name: 'Poe', desc: 'Quora旗下AI聚合平台，一站访问ChatGPT/Claude/GPT-4/Claude等多模型。', cat: 'chatbot', url: 'https://poe.com', tag: '免费额度' },
-  { id: 'perplexity', name: 'Perplexity', desc: 'AI搜索引擎，实时联网，回答带引用来源，是传统搜索的强替代。', cat: 'chatbot', url: 'https://www.perplexity.ai', tag: '免费额度' },
+  { id: 'chatgpt', name: 'ChatGPT', desc: 'OpenAI旗舰对话AI，搭载GPT-4o多模态模型，支持文本、图像、语音交互，内置代码解释器、联网搜索和GPTs自定义助手生态，覆盖编程、写作、分析等全场景，全球用户超2亿。', cat: 'chatbot', url: 'https://chat.openai.com', tag: '免费可用', hot: true, tags: ['多模态', '代码生成', 'GPT-4o'] },
+  { id: 'claude', name: 'Claude', desc: 'Anthropic旗下AI助手，搭载Claude 3.5 Sonnet模型，支持200K超长上下文窗口，在代码生成、学术写作和复杂推理方面表现卓越，以安全性和准确性著称，适合深度分析任务。', cat: 'chatbot', url: 'https://claude.ai', tag: '免费额度', hot: true, tags: ['长文本', '安全', '200K上下文'] },
+  { id: 'qianwen', name: '通义千问', desc: '阿里云通义千问大模型，支持多轮对话、代码编写、文档解析和图像理解，内置通义听悟和通义万相等多模态能力，中文理解深度优秀，免费版功能丰富，国内用户首选之一。', cat: 'chatbot', url: 'https://qianwen.aliyun.com', tag: '免费可用', tags: ['中文优化', '代码编写', '多模态'] },
+  { id: 'doubao', name: '豆包', desc: '字节跳动推出的AI智能助手，基于豆包大模型，支持智能对话、文案创作、图片生成和知识问答，深度集成抖音、飞书、今日头条等字节生态，提供便捷的跨平台AI体验。', cat: 'chatbot', url: 'https://www.doubao.com', tag: '免费', tags: ['多模态', '写作辅助', '飞书生态'] },
+  { id: 'yiyan', name: '文心一言', desc: '百度文心一言，基于文心大模型4.0，擅长中文理解与生成，支持对话问答、文案写作、代码生成和AI绘画，内置插件生态涵盖搜索、图表、数据分析等场景，国内用户量领先。', cat: 'chatbot', url: 'https://yiyan.baidu.com', tag: '免费', tags: ['中文理解', '多场景', '插件生态'] },
+  { id: 'kimi', name: 'Kimi', desc: '月之暗面推出的AI助手，支持200万字超长上下文输入，可一次性阅读整本书或多篇长文档，擅长长文摘要、资料整理、论文分析和多轮深度对话，学术和办公场景表现突出。', cat: 'chatbot', url: 'https://kimi.moonshot.cn', tag: '免费额度', hot: true, tags: ['超长上下文', '长文阅读', '资料整理'] },
+  { id: 'deepseek', name: 'DeepSeek', desc: '深度求索推出的国产开源大模型，DeepSeek-V3在代码生成和数学推理方面达到国际领先水平，完全开源且API价格极低，支持128K上下文，是开发者和企业的性价比首选。', cat: 'chatbot', url: 'https://www.deepseek.com', tag: '免费开源', hot: true, tags: ['开源', '代码能力', '低成本'] },
+  { id: 'grok', name: 'Grok', desc: 'xAI推出的AI助手，深度集成X平台（原Twitter）实时数据流，可获取最新资讯和热点话题，回答风格幽默犀利，支持图像生成和代码编写，X Premium用户可免费使用。', cat: 'chatbot', url: 'https://x.com/i/grok', tag: '付费', tags: ['实时数据', 'X平台', '个性化'] },
+  { id: 'poe', name: 'Poe', desc: 'Quora旗下AI聚合平台，一站集成ChatGPT、Claude、Gemini、Llama等主流大模型，支持自定义Bot创建和模型切换对比，提供统一的对话界面管理多个AI助手，免费额度每日更新。', cat: 'chatbot', url: 'https://poe.com', tag: '免费额度', tags: ['多模型聚合', '一站访问', '社区Bot'] },
+  { id: 'perplexity', name: 'Perplexity', desc: 'AI驱动的智能搜索引擎，实时联网检索并生成结构化回答，每条回答附带引用来源链接，支持文件上传分析、学术搜索和深度研究模式，是传统搜索引擎的强力替代品。', cat: 'chatbot', url: 'https://www.perplexity.ai', tag: '免费额度', hot: true, tags: ['AI搜索', '实时联网', '引用来源'] },
 
   // ===== AI 图像 =====
-  { id: 'midjourney', name: 'Midjourney', desc: '最强AI绘画工具之一，Discord指令生成精美图像，艺术风格多样。', cat: 'image', url: 'https://www.midjourney.com', tag: '付费' },
-  { id: 'stable-diffusion', name: 'Stable Diffusion', desc: '开源免费AI图像生成模型，支持LoRA定制和ControlNet，本地可部署。', cat: 'image', url: 'https://stability.ai', tag: '免费开源' },
-  { id: 'dalle', name: 'DALL-E 3', desc: 'OpenAI图像生成模型，理解复杂提示词能力极强，图像细节丰富、文字渲染准确。', cat: 'image', url: 'https://openai.com/dall-e-3', tag: '付费' },
-  { id: 'wanx', name: '通义万相', desc: '阿里云AI绘画，支持文生图、图生图、风格迁移，免费额度充足。', cat: 'image', url: 'https://wanx.alibaba.com', tag: '免费额度' },
-  { id: 'yige', name: '文心一格', desc: '百度AI绘画，中文提示词理解优秀，适合国内用户快速生成AI艺术作品。', cat: 'image', url: 'https://yige.baidu.com', tag: '免费' },
-  { id: 'comfyui', name: 'ComfyUI', desc: 'Stable Diffusion最强GUI，节点式工作流，高度自定义，适合进阶用户。', cat: 'image', url: 'https://github.com/comfyanonymous/ComfyUI', tag: '免费开源' },
-  { id: 'leonardo', name: 'Leonardo.ai', desc: 'AI图像生成平台，预设多种风格模型，社区氛围好，每天免费额度。', cat: 'image', url: 'https://leonardo.ai', tag: '免费额度' },
-  { id: 'adobe-firefly', name: 'Adobe Firefly', desc: 'Adobe AI图像生成，深度集成PS/PR/Ai，内置内容真实性标签。', cat: 'image', url: 'https://firefly.adobe.com', tag: '免费额度' },
-  { id: 'remove-bg', name: 'Remove.bg', desc: 'AI一键抠图神器，自动移除背景，5秒出图，支持批量处理。', cat: 'image', url: 'https://www.remove.bg', tag: '免费额度' },
+  { id: 'midjourney', name: 'Midjourney', desc: '顶级AI绘画工具，通过Discord或网页端输入文字描述即可生成高质量艺术图像，V6版本在细节还原、光影表现和文字渲染方面大幅提升，支持风格参考、图片混合和局部重绘，艺术创作者首选。', cat: 'image', url: 'https://www.midjourney.com', tag: '付费', hot: true, tags: ['AI绘画', '艺术风格', 'Discord'] },
+  { id: 'stable-diffusion', name: 'Stable Diffusion', desc: 'Stability AI推出的开源图像生成模型，支持本地部署和完全自定义，通过LoRA微调、ControlNet精准控制和ComfyUI节点式工作流，可实现高度定制化的图像生成，社区生态极其丰富。', cat: 'image', url: 'https://stability.ai', tag: '免费开源', hot: true, tags: ['开源', 'LoRA定制', 'ControlNet'] },
+  { id: 'dalle', name: 'DALL-E 3', desc: 'OpenAI推出的图像生成模型DALL-E 3，集成在ChatGPT中直接使用，对复杂提示词的理解能力极强，图像细节丰富、构图精准，文字渲染准确率在同类产品中领先，适合需要精确控制的场景。', cat: 'image', url: 'https://openai.com/dall-e-3', tag: '付费', tags: ['提示词理解', '文字渲染', 'OpenAI'] },
+  { id: 'wanx', name: '通义万相', desc: '阿里通义万相，支持文生图、图生图、涂鸦生图和风格迁移等多种模式，中文提示词理解优秀，提供丰富的中国风和商业设计模板，免费额度充足，国内用户生成AI图像的便捷选择。', cat: 'image', url: 'https://wanx.alibaba.com', tag: '免费额度', tags: ['文生图', '风格迁移', '阿里云'] },
+  { id: 'yige', name: '文心一格', desc: '百度文心一格，基于文心大模型的AI绘画平台，中文提示词理解精准，支持油画、水彩、素描、3D等多种艺术风格，提供一键修图和高清放大功能，适合国内用户快速生成艺术作品。', cat: 'image', url: 'https://yige.baidu.com', tag: '免费', tags: ['中文提示词', '艺术生成', '百度'] },
+  { id: 'comfyui', name: 'ComfyUI', desc: '基于节点的Stable Diffusion图形化工作流编辑器，通过可视化节点连接构建复杂的图像生成流水线，支持LoRA、ControlNet、IPAdapter等插件扩展，高度灵活可定制，进阶用户必备工具。', cat: 'image', url: 'https://github.com/comfyanonymous/ComfyUI', tag: '免费开源', tags: ['节点式', '工作流', '进阶定制'] },
+  { id: 'leonardo', name: 'Leonardo.ai', desc: 'AI图像生成和编辑平台，内置多种预设风格模型（如3D渲染、动漫、摄影），提供实时画布编辑、图像放大和背景移除功能，每日免费额度150张，社区作品丰富，适合设计师快速出图。', cat: 'image', url: 'https://leonardo.ai', tag: '免费额度', tags: ['风格预设', '社区', '游戏素材'] },
+  { id: 'adobe-firefly', name: 'Adobe Firefly', desc: 'Adobe推出的AI图像生成工具，深度集成Photoshop、Illustrator等创意套件，支持文生图、生成式填充、文字特效和矢量图生成，所有训练数据均获授权，商业使用安全无忧。', cat: 'image', url: 'https://firefly.adobe.com', tag: '免费额度', tags: ['Adobe集成', '内容凭证', '商业安全'] },
+  { id: 'remove-bg', name: 'Remove.bg', desc: 'AI一键抠图工具，基于深度学习算法自动识别前景主体并精确移除背景，5秒内完成处理，支持人像、产品、动物等多种场景，提供API接口和批量处理功能，电商和设计行业广泛使用。', cat: 'image', url: 'https://www.remove.bg', tag: '免费额度', tags: ['一键抠图', '批量处理', 'API接口'] },
 
   // ===== AI 视频 =====
-  { id: 'sora', name: 'Sora', desc: 'OpenAI AI视频生成模型，文本描述生成60秒高清视频，当前测试中。', cat: 'video', url: 'https://openai.com/sora', tag: '测试中' },
-  { id: 'runway', name: 'Runway', desc: 'AI视频编辑与生成平台，支持视频抠像、运动追踪、文生视频，影视级。', cat: 'video', url: 'https://runwayml.com', tag: '付费' },
-  { id: 'pika', name: 'Pika', desc: '新兴AI视频生成工具，操作简单，图生视频和文生视频，流畅自然。', cat: 'video', url: 'https://pika.art', tag: '免费试用' },
-  { id: 'zenvideo', name: '腾讯智影', desc: '腾讯AI视频编辑，数字人播报、智能剪辑、字幕生成，集成腾讯生态。', cat: 'video', url: 'https://zenvideo.qq.com', tag: '免费' },
-  { id: 'kling', name: '快影AI（可灵）', desc: '快手可灵大模型，生成5秒以上高清视频，动作连贯、镜头感强。', cat: 'video', url: 'https://klingai.com', tag: '免费额度' },
-  { id: 'haiper', name: 'Haiper', desc: 'AI视频生成工具，支持视频续写和风格转换，开创性视频生成能力。', cat: 'video', url: 'https://haiper.ai', tag: '免费试用' },
+  { id: 'sora', name: 'Sora', desc: 'OpenAI推出的文本生成视频模型，可根据文字描述生成长达60秒的高清视频，在物理世界模拟、镜头运动和场景连贯性方面表现惊人，目前面向部分创作者开放测试，引领AI视频生成新纪元。', cat: 'video', url: 'https://openai.com/sora', tag: '测试中', tags: ['文生视频', '60秒高清', 'OpenAI'] },
+  { id: 'runway', name: 'Runway', desc: '专业AI视频编辑与生成平台，提供Gen-2文生视频、运动追踪、视频抠像、背景移除和慢动作等专业功能，支持4K分辨率输出，好莱坞影视制作团队广泛使用，是视频创作者的强大工具。', cat: 'video', url: 'https://runwayml.com', tag: '付费', hot: true, tags: ['视频编辑', '运动追踪', '影视级'] },
+  { id: 'pika', name: 'Pika', desc: '新兴AI视频生成工具，支持文本生成视频和图片生成视频两种模式，可精确控制镜头运动和角色动作，提供视频延长、局部修改和口型同步功能，操作简洁直观，适合快速创作短视频内容。', cat: 'video', url: 'https://pika.art', tag: '免费试用', tags: ['图生视频', '简单易用', '流畅自然'] },
+  { id: 'zenvideo', name: '腾讯智影', desc: '腾讯智影，一站式AI视频创作平台，提供数字人播报、智能字幕、文本配音、画面裁剪和模板套用等功能，集成腾讯云能力，支持批量生产，适合企业宣传、新闻播报和教育培训场景。', cat: 'video', url: 'https://zenvideo.qq.com', tag: '免费', tags: ['数字人', '智能剪辑', '字幕生成'] },
+  { id: 'kling', name: '快影AI（可灵）', desc: '快手推出的可灵AI视频生成模型，支持生成5秒以上高清视频，在人物动作连贯性、镜头运动流畅度和物理效果模拟方面表现优异，提供图生视频和文生视频两种模式，国产AI视频领先者。', cat: 'video', url: 'https://klingai.com', tag: '免费额度', tags: ['高清视频', '动作连贯', '国产'] },
+  { id: 'haiper', name: 'Haiper', desc: 'AI视频生成工具，支持文本描述生成短视频、图片动画化和视频风格转换，提供视频续写功能可延长已有视频内容，操作简单且免费试用，适合社交媒体内容创作者快速产出视频素材。', cat: 'video', url: 'https://haiper.ai', tag: '免费试用', tags: ['视频续写', '风格转换', '创新'] },
 
   // ===== AI 写作 =====
-  { id: 'notion-ai', name: 'Notion AI', desc: 'Notion内置AI写作助手，笔记中直接调用AI，续写、总结、翻译、润色。', cat: 'writing', url: 'https://notion.so', tag: '付费' },
-  { id: 'copy-ai', name: 'Copy.ai', desc: 'AI营销文案生成，支持广告文案、社交帖子、邮件模板，高效产出。', cat: 'writing', url: 'https://www.copy.ai', tag: '免费试用' },
-  { id: 'xiezuocat', name: '秘塔写作猫', desc: '中文AI写作辅助，文章续写、错别字纠正、文风改写，全中文界面。', cat: 'writing', url: 'https://xiezuocat.com', tag: '免费' },
-  { id: 'xfwriting', name: '讯飞写作', desc: '科大讯飞AI写作，多语种写作、语音输入转文字，会议记录整理。', cat: 'writing', url: 'https://xf.xunfei.cn', tag: '免费' },
-  { id: 'jasper', name: 'Jasper', desc: '企业级AI内容平台，SEO文案、博客文章，品牌语气一致，大团队首选。', cat: 'writing', url: 'https://www.jasper.ai', tag: '付费' },
-  { id: 'wps-ai', name: 'WPS AI', desc: 'WPS内置AI助手，文档写作、润色、总结、移动端支持，国产办公首选。', cat: 'writing', url: 'https://ai.wps.cn', tag: '免费' },
+  { id: 'notion-ai', name: 'Notion AI', desc: 'Notion内置AI写作助手，可在文档、笔记和数据库中直接调用，支持内容续写、自动总结、翻译润色、提取要点和生成大纲，与Notion的知识库无缝集成，是知识工作者的高效写作伙伴。', cat: 'writing', url: 'https://notion.so', tag: '付费', hot: true, tags: ['笔记集成', '续写总结', '团队协作'] },
+  { id: 'copy-ai', name: 'Copy.ai', desc: 'AI营销文案生成平台，提供广告文案、社交媒体帖子、产品描述、邮件模板和博客文章等多种模板，支持多语言输出和品牌语气定制，内置工作流自动化功能，营销团队提升效率的利器。', cat: 'writing', url: 'https://www.copy.ai', tag: '免费试用', tags: ['营销文案', '广告', '邮件模板'] },
+  { id: 'xiezuocat', name: '秘塔写作猫', desc: '秘塔写作猫，专注中文AI写作辅助，提供文章续写、错别字纠正、语法修改、文风改写和智能配图功能，支持中英文混合写作，全中文界面操作友好，适合学生、编辑和内容创作者日常使用。', cat: 'writing', url: 'https://xiezuocat.com', tag: '免费', tags: ['中文写作', '错别字纠正', '文风改写'] },
+  { id: 'xfwriting', name: '讯飞写作', desc: '科大讯飞AI写作平台，支持多语种内容创作、语音输入转文字和会议记录智能整理，提供公文写作、新闻稿和商业报告等专业模板，语音识别准确率行业领先，适合政企用户和媒体从业者。', cat: 'writing', url: 'https://xf.xunfei.cn', tag: '免费', tags: ['语音输入', '多语种', '会议记录'] },
+  { id: 'jasper', name: 'Jasper', desc: '企业级AI内容创作平台，支持SEO优化文案、博客文章、广告语和社交媒体内容批量生成，内置品牌知识库确保输出风格一致，提供团队协作和工作流管理功能，大型营销团队的首选工具。', cat: 'writing', url: 'https://www.jasper.ai', tag: '付费', tags: ['企业级', 'SEO文案', '品牌语气'] },
+  { id: 'wps-ai', name: 'WPS AI', desc: '金山办公推出的AI助手，深度集成在WPS文档、表格和演示中，支持智能写作、文档润色、数据分析和一键生成PPT，移动端和PC端同步使用，国产办公软件AI化的标杆产品。', cat: 'writing', url: 'https://ai.wps.cn', tag: '免费', tags: ['文档写作', '润色总结', '移动端'] },
 
   // ===== AI 音频 =====
-  { id: 'elevenlabs', name: 'ElevenLabs', desc: 'AI语音克隆和文字转语音，语音自然逼真，支持28种语言和多种声音风格。', cat: 'audio', url: 'https://elevenlabs.io', tag: '免费试用' },
-  { id: 'jianying', name: '剪映', desc: '字节跳动视频剪辑，AI配音、智能字幕、画面优化，零基础也能快速上手。', cat: 'audio', url: 'https://www.capcut.cn', tag: '免费' },
-  { id: 'iflyrec', name: '讯飞听见', desc: '科大讯飞语音识别，实时语音转文字、会议录音转写，准确率行业领先。', cat: 'audio', url: 'https://www.iflyrec.com', tag: '免费额度' },
-  { id: 'murf', name: 'Murf AI', desc: '专业AI配音平台，120+种语言，语音克隆，声音编辑，适合商业视频。', cat: 'audio', url: 'https://murf.ai', tag: '付费' },
+  { id: 'elevenlabs', name: 'ElevenLabs', desc: '业界领先的AI语音合成和克隆平台，支持29种语言和数百种预设音色，语音自然度和情感表达接近真人水平，提供语音克隆、变声器和API接口，被广泛应用于有声书、播客和视频配音。', cat: 'audio', url: 'https://elevenlabs.io', tag: '免费试用', tags: ['语音克隆', '多语言', '声音风格'] },
+  { id: 'jianying', name: '剪映', desc: '字节跳动推出的全能视频剪辑工具，内置AI智能配音、自动字幕生成、画面优化和音乐推荐功能，提供丰富的滤镜、特效和转场模板，零基础用户也能快速剪辑出专业级短视频，国内用户量最大。', cat: 'audio', url: 'https://www.capcut.cn', tag: '免费', tags: ['视频剪辑', 'AI配音', '智能字幕'] },
+  { id: 'iflyrec', name: '讯飞听见', desc: '科大讯飞语音转写平台，支持实时语音识别和录音文件转写，中文识别准确率超过98%，提供智能区分说话人、自动生成会议纪要和多语种翻译功能，适合会议记录、采访整理和字幕制作。', cat: 'audio', url: 'https://www.iflyrec.com', tag: '免费额度', tags: ['语音转文字', '会议转写', '高准确率'] },
+  { id: 'murf', name: 'Murf AI', desc: '专业AI配音平台，提供120多种高质量AI音色覆盖多种语言和地区口音，支持语音克隆、语速调节和音高控制，内置视频编辑器可同步配音与画面，适合企业培训、产品演示和商业广告制作。', cat: 'audio', url: 'https://murf.ai', tag: '付费', tags: ['专业配音', '声音编辑', '商业视频'] },
 
   // ===== AI 办公 =====
-  { id: 'gamma', name: 'Gamma', desc: 'AI生成PPT和演示文稿，输入主题生成完整幻灯片，支持自定义样式。', cat: 'office', url: 'https://gamma.app', tag: '免费试用' },
-  { id: 'beautiful-ai', name: 'Beautiful.ai', desc: 'AI演示文稿，自动优化排版和设计，节省大量PPT制作时间。', cat: 'office', url: 'https://www.beautiful.ai', tag: '付费' },
-  { id: 'tome', name: 'Tome', desc: 'AI幻灯片生成，以叙事为中心，支持嵌入3D模型、视频和网页。', cat: 'office', url: 'https://tome.app', tag: '免费试用' },
-  { id: 'mindshow', name: 'MindShow', desc: '国产AI生成PPT，输入大纲自动生成演示，支持多种主题，免费使用。', cat: 'office', url: 'https://mindshow.fun', tag: '免费' },
-  { id: 'slidesgo', name: 'Slidesgo', desc: 'AI幻灯片模板平台，FreePik旗下，丰富的行业模板库，支持在线编辑。', cat: 'office', url: 'https://slidesgo.com', tag: '免费额度' },
-  { id: 'chartai', name: 'ChartGPT', desc: 'AI图表生成器，输入数据自动生成精美图表，支持多种图表类型。', cat: 'office', url: 'https://chartgpt.io', tag: '免费' },
+  { id: 'gamma', name: 'Gamma', desc: 'AI演示文稿生成工具，输入主题或大纲即可自动生成排版精美的PPT，支持嵌入图片、视频、图表和网页，提供多种设计主题和布局模板，可导出为PPT或PDF，大幅缩短演示文稿制作时间。', cat: 'office', url: 'https://gamma.app', tag: '免费试用', tags: ['AI生成PPT', '自动排版', '自定义样式'] },
+  { id: 'beautiful-ai', name: 'Beautiful.ai', desc: 'AI驱动的智能演示文稿工具，自动优化排版布局和视觉设计，用户只需关注内容输入，系统实时调整字体、配色和元素位置确保美观一致，提供丰富的行业模板，适合商务汇报和产品展示。', cat: 'office', url: 'https://www.beautiful.ai', tag: '付费', tags: ['自动排版', '设计优化', '高效制作'] },
+  { id: 'tome', name: 'Tome', desc: 'AI叙事型幻灯片生成工具，以讲故事为核心逻辑自动构建演示结构，支持嵌入3D模型、Figma设计稿、网页和视频等多媒体内容，提供协作编辑和分享功能，适合创意提案和产品路演。', cat: 'office', url: 'https://tome.app', tag: '免费试用', tags: ['叙事驱动', '3D嵌入', '多媒体'] },
+  { id: 'mindshow', name: 'MindShow', desc: '国产AI演示文稿生成工具，支持Markdown大纲一键转换为精美PPT，提供多种设计主题和配色方案，内置AI内容优化功能可自动扩展要点，免费使用且支持导出PPTX格式，国内用户友好。', cat: 'office', url: 'https://mindshow.fun', tag: '免费', tags: ['大纲生成', '多主题', '国产免费'] },
+  { id: 'slidesgo', name: 'Slidesgo', desc: 'Freepik旗下AI幻灯片模板平台，提供数千套由专业设计师制作的免费PPT模板，覆盖商务、教育、科技、医疗等行业，支持在线编辑和AI内容生成，与Google Slides和PowerPoint兼容。', cat: 'office', url: 'https://slidesgo.com', tag: '免费额度', tags: ['模板库', '行业模板', '在线编辑'] },
+  { id: 'chartai', name: 'ChartGPT', desc: 'AI图表生成工具，输入数据或描述即可自动生成柱状图、折线图、饼图、散点图等多种精美图表，支持数据可视化建议和样式自定义，适合数据报告、学术展示和商业分析场景。', cat: 'office', url: 'https://chartgpt.io', tag: '免费', tags: ['数据可视化', '多图表类型', '自动生成'] },
 
   // ===== 浏览器 =====
-  { id: 'chrome', name: 'Chrome', desc: 'Google全球最广泛浏览器，基于Chromium，性能强劲，扩展生态最丰富。', cat: 'browser', url: 'https://www.google.com/chrome', tag: '免费' },
-  { id: 'edge', name: 'Edge', desc: '微软基于Chromium，Windows预装，IE兼容模式，内置丰富功能。', cat: 'browser', url: 'https://www.microsoft.com/edge', tag: '免费' },
-  { id: 'firefox', name: 'Firefox', desc: 'Mozilla开源浏览器，注重隐私保护，不使用Chromium，高度自定义。', cat: 'browser', url: 'https://www.mozilla.org/firefox', tag: '免费' },
-  { id: 'arc', name: 'Arc', desc: '颠覆性浏览器设计，垂直标签页、空间概念、外观精美，Mac用户首选。', cat: 'browser', url: 'https://arc.net', tag: '免费' },
+  { id: 'chrome', name: 'Chrome', desc: 'Google推出的全球市场份额最大的浏览器，基于Chromium内核，V8引擎性能强劲，Chrome Web Store拥有数十万扩展插件，支持跨设备同步书签密码，开发者工具功能完善，全球用户超30亿。', cat: 'browser', url: 'https://www.google.com/chrome', tag: '免费', tags: ['Chromium', '扩展生态', '高性能'] },
+  { id: 'edge', name: 'Edge', desc: '微软基于Chromium内核打造的浏览器，Windows系统预装，内置IE兼容模式可访问老旧网站，集成Copilot AI助手、Collections收藏夹和垂直标签页，与Office 365深度联动，国内访问无需翻墙。', cat: 'browser', url: 'https://www.microsoft.com/edge', tag: '免费', tags: ['Chromium', 'IE兼容', 'Windows预装'] },
+  { id: 'firefox', name: 'Firefox', desc: 'Mozilla基金会维护的开源浏览器，采用Gecko引擎，注重用户隐私保护，内置增强型跟踪保护和容器标签页隔离功能，高度可定制，支持丰富的扩展生态，隐私意识用户的最佳选择。', cat: 'browser', url: 'https://www.mozilla.org/firefox', tag: '免费', tags: ['开源', '隐私保护', '高度自定义'] },
+  { id: 'arc', name: 'Arc', desc: 'The Browser Company推出的颠覆性浏览器，采用垂直标签页和空间（Space）概念组织浏览内容，界面设计精美现代，内置AI助手Arc Max，支持Easel网页笔记功能，目前支持macOS和Windows。', cat: 'browser', url: 'https://arc.net', tag: '免费', tags: ['垂直标签', '空间概念', 'Mac'] },
 
   // ===== 下载工具 =====
-  { id: 'idm', name: 'IDM', desc: 'Windows最强下载管理器，多线程、断点续传、视频抓取，下载速度极快。', cat: 'download', url: 'https://www.internetdownloadmanager.com', tag: '付费' },
-  { id: 'motrix', name: 'Motrix', desc: '免费开源全能下载器，支持HTTP、BT、磁力链、网盘下载，界面简洁。', cat: 'download', url: 'https://motrix.app', tag: '免费开源' },
-  { id: 'adm', name: 'ADM', desc: '安卓平台高效下载工具，多线程加速、断点续传，替代手机内置下载器。', cat: 'download', url: 'https://play.google.com/store/apps/details?id=com.dv.adm', tag: '免费' },
-  { id: 'xdown', name: 'XDown', desc: '免费开源下载器，支持BT/磁力/HTTP/网盘，IDM替代品，无广告。', cat: 'download', url: 'https://www.xdown.tv', tag: '免费开源' },
+  { id: 'idm', name: 'IDM', desc: 'Windows平台最强下载管理器，支持多线程加速下载（最高32线程），浏览器一键捕获下载链接，内置视频嗅探器可自动检测网页中的视频文件，支持断点续传和队列下载，下载速度远超浏览器自带下载。', cat: 'download', url: 'https://www.internetdownloadmanager.com', tag: '付费', tags: ['多线程', '断点续传', '视频抓取'] },
+  { id: 'motrix', name: 'Motrix', desc: '开源免费的全能下载管理器，支持HTTP、FTP、BT种子和磁力链下载，界面简洁现代，支持下载队列管理和限速设置，跨平台支持Windows、macOS和Linux，是IDM的优秀免费替代品。', cat: 'download', url: 'https://motrix.app', tag: '免费开源', tags: ['开源', 'BT磁力', '网盘下载'] },
+  { id: 'adm', name: 'ADM', desc: '安卓平台高效下载管理器，支持多线程加速和断点续传，可拦截浏览器下载请求接管文件下载，支持BT种子和磁力链，提供文件分类管理和下载速度限制功能，Android设备下载大文件的首选工具。', cat: 'download', url: 'https://play.google.com/store/apps/details?id=com.dv.adm', tag: '免费', tags: ['安卓', '多线程加速', '移动端'] },
+  { id: 'xdown', name: 'XDown', desc: '免费开源的下载管理器，支持HTTP、BT、磁力链和网盘资源下载，采用多线程加速技术，支持浏览器扩展一键捕获下载，界面简洁无广告，轻量高效，是Windows平台IDM的免费替代方案。', cat: 'download', url: 'https://www.xdown.tv', tag: '免费开源', tags: ['开源', 'BT磁力', '无广告'] },
 
   // ===== 系统工具 =====
-  { id: 'potplayer', name: 'Potplayer', desc: 'Windows最强视频播放器，支持几乎所有音视频格式，功能定制能力极强。', cat: 'system', url: 'https://potplayer.daum.net', tag: '免费' },
-  { id: '7zip', name: '7-Zip', desc: '免费开源压缩工具，支持ZIP、RAR、7z等格式，解压速度快，无广告。', cat: 'system', url: 'https://www.7-zip.org', tag: '免费开源' },
-  { id: 'everything', name: 'Everything', desc: 'Windows文件搜索神器，基于NTFS索引，输入即显示结果，定位文件极快。', cat: 'system', url: 'https://www.voidtools.com', tag: '免费' },
-  { id: 'snipaste', name: 'Snipaste', desc: '截图+贴图工具，截图、标注、贴图到屏幕最前端，效率神器。', cat: 'system', url: 'https://www.snipaste.com', tag: '免费' },
-  { id: 'listary', name: 'Listary', desc: 'Windows全局搜索增强，双击Ctrl快速呼出，文件/应用秒搜。', cat: 'system', url: 'https://www.listary.com', tag: '免费' },
-  { id: 'bandizip', name: 'Bandizip', desc: '轻量压缩工具，支持多种格式，界面美观，解压预览功能强大。', cat: 'system', url: 'https://www.bandisoft.com/bandizip', tag: '免费' },
+  { id: 'potplayer', name: 'Potplayer', desc: 'Windows平台功能最强大的本地视频播放器，支持几乎所有音视频格式（含HEVC、VP9），内置硬件加速解码，支持3D视频、多音轨切换、字幕在线搜索和画面滤镜调节，播放体验流畅专业。', cat: 'system', url: 'https://potplayer.daum.net', tag: '免费', tags: ['全格式', '硬件加速', '高度定制'] },
+  { id: '7zip', name: '7-Zip', desc: '开源免费的高压缩比压缩工具，支持ZIP、RAR、7z、TAR等数十种压缩格式，7z格式压缩率比ZIP高出30-70%，支持分卷压缩和AES-256加密，命令行和图形界面双模式，体积小巧无广告。', cat: 'system', url: 'https://www.7-zip.org', tag: '免费开源', tags: ['开源', '多格式', '高压缩比'] },
+  { id: 'everything', name: 'Everything', desc: 'Windows平台最快的文件搜索工具，基于NTFS文件系统索引实现即时搜索，输入关键词瞬间显示匹配结果，支持正则表达式、文件类型过滤和HTTP/FTP服务器分享，百万级文件秒级定位。', cat: 'system', url: 'https://www.voidtools.com', tag: '免费', tags: ['文件搜索', 'NTFS索引', '极速定位'] },
+  { id: 'snipaste', name: 'Snipaste', desc: '截图+贴图效率工具，支持矩形、不规则和滚动截图，截图后可直接贴在屏幕最前端作为参考，内置标注工具（箭头、文字、马赛克），支持取色器和历史截图管理，提升工作效率的必备神器。', cat: 'system', url: 'https://www.snipaste.com', tag: '免费', tags: ['截图标注', '屏幕贴图', '效率工具'] },
+  { id: 'listary', name: 'Listary', desc: 'Windows全局文件搜索和启动增强工具，双击Ctrl键即可呼出搜索框，输入关键词秒搜文件、文件夹和应用程序，支持快捷命令、自定义关键词和文件操作，大幅提升Windows文件管理效率。', cat: 'system', url: 'https://www.listary.com', tag: '免费', tags: ['全局搜索', '快捷键', '文件定位'] },
+  { id: 'bandizip', name: 'Bandizip', desc: '轻量高效的压缩解压工具，支持ZIP、RAR、7z、ALZ等数十种格式，界面美观操作简洁，支持预览压缩包内文件、分卷压缩和密码管理，v7版本改为付费后，v6.25仍是免费使用的经典版本。', cat: 'system', url: 'https://www.bandisoft.com/bandizip', tag: '免费', tags: ['轻量', '多格式', '解压预览'] },
 
   // ===== 开发工具 =====
-  { id: 'vscode', name: 'VS Code', desc: '微软开源代码编辑器，多语言、智能补全、Git集成、扩展市场，程序员必备。', cat: 'dev', url: 'https://code.visualstudio.com', tag: '免费开源' },
-  { id: 'git', name: 'Git', desc: '分布式版本控制，管理代码变更，支持多人协作，现代软件开发标配。', cat: 'dev', url: 'https://git-scm.com', tag: '免费开源' },
-  { id: 'docker', name: 'Docker', desc: '容器化平台，环境一致性保证，DevOps和微服务基础设施。', cat: 'dev', url: 'https://www.docker.com', tag: '免费' },
-  { id: 'github', name: 'GitHub', desc: '全球最大代码托管平台，GitHub Actions CI/CD，开发者社区和开源生态核心。', cat: 'dev', url: 'https://github.com', tag: '免费' },
-  { id: 'cursor', name: 'Cursor', desc: 'AI代码编辑器，基于VS Code，AI自动补全、代码生成、聊天辅助编程。', cat: 'dev', url: 'https://cursor.sh', tag: '免费' },
-  { id: 'copilot', name: 'GitHub Copilot', desc: 'GitHub AI编程助手，代码补全、函数生成、Bug修复，提高编程效率。', cat: 'dev', url: 'https://github.com/features/copilot', tag: '付费' },
-  { id: 'postman', name: 'Postman', desc: 'API开发和测试工具，接口调试、自动化测试、团队协作，开发者必备。', cat: 'dev', url: 'https://www.postman.com', tag: '免费' },
+  { id: 'vscode', name: 'VS Code', desc: '微软推出的开源代码编辑器，支持数百种编程语言的智能补全和语法高亮，内置Git版本控制、集成终端和调试器，扩展市场拥有数万款插件，轻量高效，是全球程序员使用最广泛的开发工具。', cat: 'dev', url: 'https://code.visualstudio.com', tag: '免费开源', hot: true, tags: ['代码编辑', '插件生态', '多语言'] },
+  { id: 'git', name: 'Git', desc: '分布式版本控制系统，支持分支管理、代码合并和冲突解决，记录每一次代码变更历史，支持GitHub、GitLab等远程仓库协作，是现代软件开发的标准基础设施，每位开发者必须掌握的核心工具。', cat: 'dev', url: 'https://git-scm.com', tag: '免费开源', tags: ['版本控制', '多人协作', '分布式'] },
+  { id: 'docker', name: 'Docker', desc: '容器化应用部署平台，通过Dockerfile定义运行环境，将应用及其依赖打包为轻量级容器镜像，实现"一次构建，处处运行"，是微服务架构和DevOps流程的核心基础设施，开发和运维必备。', cat: 'dev', url: 'https://www.docker.com', tag: '免费', tags: ['容器化', 'DevOps', '微服务'] },
+  { id: 'github', name: 'GitHub', desc: '全球最大的代码托管和开源协作平台，提供Git仓库管理、Pull Request代码审查、GitHub Actions CI/CD自动化和GitHub Pages静态网站托管，拥有超过1亿开发者，是开源生态的核心枢纽。', cat: 'dev', url: 'https://github.com', tag: '免费', hot: true, tags: ['代码托管', 'CI/CD', '开源社区'] },
+  { id: 'cursor', name: 'Cursor', desc: '基于VS Code深度定制的AI代码编辑器，内置AI对话、代码自动补全和多文件编辑功能，支持自然语言描述需求自动生成代码，理解整个项目上下文，显著提升编程效率，被誉为一款"AI原生"的开发工具。', cat: 'dev', url: 'https://cursor.sh', tag: '免费', hot: true, tags: ['AI编程', 'VS Code', '代码补全'] },
+  { id: 'copilot', name: 'GitHub Copilot', desc: 'GitHub推出的AI编程助手，基于OpenAI Codex模型训练，支持实时代码补全、函数生成、单元测试编写和Bug修复建议，深度集成VS Code和JetBrains等主流IDE，支持数十种编程语言。', cat: 'dev', url: 'https://github.com/features/copilot', tag: '付费', hot: true, tags: ['AI补全', '函数生成', 'Bug修复'] },
+  { id: 'postman', name: 'Postman', desc: 'API开发和测试的全方位工具，支持HTTP请求构建、响应检查和自动化测试脚本编写，提供Mock Server模拟接口、环境变量管理和团队协作功能，内置API文档生成，是前后端开发者必备的接口调试工具。', cat: 'dev', url: 'https://www.postman.com', tag: '免费', tags: ['API调试', '自动化测试', '团队协作'] },
 
   // ===== 新增工具 =====
 
   // AI对话新增
-  { id: 'gemini', name: 'Gemini', desc: 'Google最新多模态AI，支持文本、图像、代码、视频理解，集成Google生态，免费可用。', cat: 'chatbot', url: 'https://gemini.google.com', tag: '免费可用' },
-  { id: 'glm', name: '智谱清言', desc: '智谱AI大模型，GLM系列，支持长文本、代码、多模态，国产开源代表。', cat: 'chatbot', url: 'https://chatglm.cn', tag: '免费额度' },
-  { id: 'tiangong', name: '天工AI', desc: '昆仑万维AI助手，支持AI搜索、对话、写作，集成搜索引擎能力。', cat: 'chatbot', url: 'https://www.tiangong.cn', tag: '免费' },
-  { id: 'yuanbao', name: '腾讯元宝', desc: '腾讯混元大模型，支持对话、写作、图像生成，集成微信生态。', cat: 'chatbot', url: 'https://yuanbao.tencent.com', tag: '免费' },
+  { id: 'gemini', name: 'Gemini', desc: 'Google DeepMind推出的多模态AI，原生支持文本、图像、音频、视频理解，Gemini 1.5 Pro拥有100万token超长上下文，深度集成Google搜索、Gmail、Docs等生态，免费开放。', cat: 'chatbot', url: 'https://gemini.google.com', tag: '免费可用', hot: true, tags: ['多模态', 'Google生态', '免费'] },
+  { id: 'glm', name: '智谱清言', desc: '智谱AI推出的GLM系列大模型，支持长文本理解、代码生成和多模态交互，提供GLM-4和开源ChatGLM等多个版本，在中文场景下表现优异，API兼容OpenAI格式，开发者友好。', cat: 'chatbot', url: 'https://chatglm.cn', tag: '免费额度', tags: ['GLM系列', '长文本', '国产开源'] },
+  { id: 'tiangong', name: '天工AI', desc: '昆仑万维推出的AI助手，集成AI搜索、智能对话和内容创作功能，支持实时联网检索最新信息，提供文档阅读和数据分析能力，免费开放，适合日常信息查询和知识获取。', cat: 'chatbot', url: 'https://www.tiangong.cn', tag: '免费', tags: ['AI搜索', '对话写作', '搜索引擎'] },
+  { id: 'yuanbao', name: '腾讯元宝', desc: '腾讯混元大模型驱动的AI助手，支持多轮对话、文案写作和图像生成，深度集成微信搜一搜和腾讯文档生态，提供便捷的内容创作和知识问答服务，国内用户可直接访问。', cat: 'chatbot', url: 'https://yuanbao.tencent.com', tag: '免费', tags: ['混元大模型', '图像生成', '微信生态'] },
 
   // AI图像新增
-  { id: 'ideogram', name: 'Ideogram', desc: 'AI图像生成工具，文字渲染能力极强，海报和Logo设计首选，免费额度充足。', cat: 'image', url: 'https://ideogram.ai', tag: '免费额度' },
-  { id: 'flux', name: 'Flux', desc: 'Black Forest Labs出品，开源图像生成模型，画质细腻，人体和手部细节出色。', cat: 'image', url: 'https://blackforestlabs.ai', tag: '免费开源' },
-  { id: 'playground', name: 'Playground AI', desc: '免费AI图像生成平台，支持多种模型，社区作品丰富，适合初学者。', cat: 'image', url: 'https://playground.com', tag: '免费' },
+  { id: 'ideogram', name: 'Ideogram', desc: 'AI图像生成工具，在文字渲染方面表现极为出色，可精确生成包含英文文字的海报、Logo和标志设计，图像质量高且风格多样，免费额度充足，是平面设计师的AI绘图新选择。', cat: 'image', url: 'https://ideogram.ai', tag: '免费额度', tags: ['文字渲染', '海报设计', 'Logo设计'] },
+  { id: 'flux', name: 'Flux', desc: 'Black Forest Labs推出的开源图像生成模型，由Stable Diffusion原班团队打造，在画质细腻度、人体比例和手部细节方面表现卓越，提供Pro和Dev等多个版本，开源社区活跃。', cat: 'image', url: 'https://blackforestlabs.ai', tag: '免费开源', tags: ['开源', '高画质', '人体细节'] },
+  { id: 'playground', name: 'Playground AI', desc: '免费AI图像生成平台，集成多种开源模型（包括Stable Diffusion和Playground v2.5），提供在线编辑器支持笔刷修改、图像扩展和背景替换，社区分享大量优质作品和提示词模板。', cat: 'image', url: 'https://playground.com', tag: '免费', tags: ['免费生成', '多模型', '社区作品'] },
 
   // AI视频新增
-  { id: 'vidu', name: 'Vidu', desc: '生数科技AI视频生成，支持文生视频和图生视频，国产视频AI领先者。', cat: 'video', url: 'https://www.vidu.studio', tag: '免费额度' },
-  { id: 'luma', name: 'Luma Dream Machine', desc: 'AI视频生成工具，高质量3D视频和动画，效果逼真，免费试用。', cat: 'video', url: 'https://lumalabs.ai', tag: '免费试用' },
+  { id: 'vidu', name: 'Vidu', desc: '生数科技推出的AI视频生成平台，支持文生视频和图生视频，可生成4秒至8秒的高清视频片段，在人物一致性和场景连贯性方面表现良好，国产AI视频生成领域的重要参与者。', cat: 'video', url: 'https://www.vidu.studio', tag: '免费额度', tags: ['文生视频', '图生视频', '国产'] },
+  { id: 'luma', name: 'Luma Dream Machine', desc: 'Luma Dream Machine，AI视频生成工具，支持根据文字描述或参考图片生成高质量视频，在3D场景理解和运动一致性方面表现出色，提供免费试用额度，适合创意视频快速原型制作。', cat: 'video', url: 'https://lumalabs.ai', tag: '免费试用', tags: ['3D视频', '动画生成', '逼真效果'] },
 
   // AI写作新增
-  { id: 'grammarly', name: 'Grammarly', desc: 'AI英文写作助手，语法纠错、风格优化、抄袭检测，英文写作必备。', cat: 'writing', url: 'https://www.grammarly.com', tag: '免费额度' },
-  { id: 'quillbot', name: 'QuillBot', desc: 'AI改写和润色工具，支持多语言，段落改写、语法检查、摘要生成。', cat: 'writing', url: 'https://quillbot.com', tag: '免费额度' },
+  { id: 'grammarly', name: 'Grammarly', desc: 'AI英文写作助手，实时检测语法错误、拼写问题和标点误用，提供风格优化、语气调整和清晰度建议，内置抄袭检测功能，支持Chrome浏览器插件和跨平台使用，英文写作必备工具。', cat: 'writing', url: 'https://www.grammarly.com', tag: '免费额度', tags: ['语法纠错', '风格优化', '抄袭检测'] },
+  { id: 'quillbot', name: 'QuillBot', desc: 'AI文本改写和润色工具，支持段落改写、语法检查、摘要生成和翻译功能，提供多种改写模式（流畅、正式、简洁、创意），内置同义词滑块可精确控制改写程度，学术写作和内容优化的实用工具。', cat: 'writing', url: 'https://quillbot.com', tag: '免费额度', tags: ['改写润色', '多语言', '摘要生成'] },
 
   // AI音频新增
-  { id: 'suno', name: 'Suno', desc: 'AI音乐生成平台，输入文字描述即可生成完整歌曲，支持多种音乐风格。', cat: 'audio', url: 'https://suno.com', tag: '免费额度' },
-  { id: 'udio', name: 'Udio', desc: 'AI音乐创作工具，高质量音乐生成，支持人声和乐器，音乐人新选择。', cat: 'audio', url: 'https://www.udio.com', tag: '免费额度' },
-  { id: 'ttsmaker', name: 'TTSMaker', desc: '免费文字转语音工具，支持50+种语言和多种音色，在线即用无需注册。', cat: 'audio', url: 'https://ttsmaker.cn', tag: '免费' },
+  { id: 'suno', name: 'Suno', desc: 'AI音乐生成平台，输入文字描述或歌词即可生成包含人声演唱和乐器编曲的完整歌曲，支持流行、摇滚、电子、古典等数十种风格，生成质量极高，音乐零基础也能创作专业级作品。', cat: 'audio', url: 'https://suno.com', tag: '免费额度', hot: true, tags: ['AI音乐', '文字生歌', '多风格'] },
+  { id: 'udio', name: 'Udio', desc: 'AI音乐创作平台，在音质和人声表现方面达到专业水准，支持多种音乐风格和语言，提供精细的音频控制参数，可生成高品质的完整歌曲，音乐人和内容创作者的新型创作工具。', cat: 'audio', url: 'https://www.udio.com', tag: '免费额度', tags: ['音乐创作', '人声合成', '高质量'] },
+  { id: 'ttsmaker', name: 'TTSMaker', desc: '免费在线文字转语音工具，支持50多种语言和数百种音色选择，提供语速、音调和音量调节功能，无需注册即可使用，支持批量文本转换和音频下载，适合快速生成配音和语音播报。', cat: 'audio', url: 'https://ttsmaker.cn', tag: '免费', tags: ['文字转语音', '多语言', '在线即用'] },
 
   // AI办公新增
-  { id: 'canva-ai', name: 'Canva AI', desc: '在线设计平台AI功能，一键生成海报、PPT、社交媒体图，模板丰富。', cat: 'office', url: 'https://www.canva.com', tag: '免费额度' },
+  { id: 'canva-ai', name: 'Canva AI', desc: '全球领先的在线设计平台，AI功能支持一键生成海报、社交媒体图、演示文稿和视频缩略图，提供海量模板和素材库，内置AI背景移除、智能裁剪和文案生成功能，非设计师也能快速出图。', cat: 'office', url: 'https://www.canva.com', tag: '免费额度', tags: ['在线设计', '海报生成', '模板丰富'] },
 
   // 浏览器新增
-  { id: 'brave', name: 'Brave', desc: '注重隐私的浏览器，内置广告拦截，速度快，支持Chrome扩展。', cat: 'browser', url: 'https://brave.com', tag: '免费' },
-  { id: 'vivaldi', name: 'Vivaldi', desc: '高度自定义浏览器，标签页堆叠、内置笔记，功能丰富，极客首选。', cat: 'browser', url: 'https://vivaldi.com', tag: '免费' },
+  { id: 'brave', name: 'Brave', desc: '注重隐私保护的浏览器，基于Chromium内核，内置Brave Shields广告拦截和跟踪防护，浏览速度比Chrome快约3倍，支持Brave Search隐私搜索引擎和Brave Rewards广告收益分享计划。', cat: 'browser', url: 'https://brave.com', tag: '免费', tags: ['隐私保护', '广告拦截', 'Chrome扩展'] },
+  { id: 'vivaldi', name: 'Vivaldi', desc: '高度可定制的浏览器，由Opera前CEO创立，支持标签页堆叠、分屏浏览、内置笔记和邮件客户端，提供丰富的页面操作快捷键和主题定制选项，功能密度极高，适合高级用户和极客。', cat: 'browser', url: 'https://vivaldi.com', tag: '免费', tags: ['高度自定义', '标签堆叠', '内置笔记'] },
 
   // 下载工具新增
-  { id: 'aria2', name: 'Aria2', desc: '命令行下载工具，支持HTTP/FTP/BT/磁力，轻量高效，服务器常用。', cat: 'download', url: 'https://aria2.github.io', tag: '免费开源' },
-  { id: 'neatdownload', name: 'Neat Download Manager', desc: '免费下载管理器，跨平台支持，简洁高效，IDM免费替代品。', cat: 'download', url: 'https://www.neatdownloadmanager.com', tag: '免费' },
+  { id: 'aria2', name: 'Aria2', desc: '轻量级命令行下载工具，支持HTTP/HTTPS、FTP、BitTorrent和Metalink多种协议，支持多线程和断点续传，资源占用极低，常用于服务器环境部署，配合WebUI可实现远程下载管理。', cat: 'download', url: 'https://aria2.github.io', tag: '免费开源', tags: ['命令行', 'BT磁力', '轻量高效'] },
+  { id: 'neatdownload', name: 'Neat Download Manager', desc: '免费跨平台下载管理器，支持Windows和macOS，提供多线程加速、断点续传和浏览器集成功能，界面简洁直观，支持下载队列和分类管理，是IDM的轻量级免费替代选择。', cat: 'download', url: 'https://www.neatdownloadmanager.com', tag: '免费', tags: ['跨平台', '简洁高效', 'IDM替代'] },
 
   // 系统工具新增
-  { id: 'obs', name: 'OBS Studio', desc: '免费开源录屏直播软件，支持多场景、多源叠加，直播和录屏首选。', cat: 'system', url: 'https://obsproject.com', tag: '免费开源' },
-  { id: 'powerToys', name: 'PowerToys', desc: '微软官方Windows增强工具集，包含PowerToys Run、FancyZones等实用功能。', cat: 'system', url: 'https://github.com/microsoft/PowerToys', tag: '免费开源' },
-  { id: 'geek', name: 'Geek Uninstaller', desc: 'Windows彻底卸载工具，强制卸载+清理残留，体积小巧免安装。', cat: 'system', url: 'https://geekuninstaller.com', tag: '免费' },
+  { id: 'obs', name: 'OBS Studio', desc: '开源免费的录屏和直播软件，支持多场景、多源叠加（摄像头、屏幕、窗口、图片），内置音频混音器、场景切换和虚拟摄像头功能，支持RTMP推流至各大直播平台，录屏直播的首选工具。', cat: 'system', url: 'https://obsproject.com', tag: '免费开源', tags: ['录屏直播', '多场景', '多源叠加'] },
+  { id: 'powerToys', name: 'PowerToys', desc: '微软官方推出的Windows系统增强工具集，包含PowerToys Run快捷启动器、FancyZones窗口分屏管理、Color Picker取色器、PowerRename批量重命名和Keyboard Manager快捷键管理等十余款实用工具。', cat: 'system', url: 'https://github.com/microsoft/PowerToys', tag: '免费开源', tags: ['Windows增强', '窗口管理', '官方工具'] },
+  { id: 'geek', name: 'Geek Uninstaller', desc: 'Windows程序彻底卸载工具，体积仅数MB免安装，支持强制卸载残留程序和清理注册表、文件夹残留，卸载速度极快且清理彻底，是Windows自带卸载程序的完美补充，维护系统整洁的必备工具。', cat: 'system', url: 'https://geekuninstaller.com', tag: '免费', tags: ['彻底卸载', '清理残留', '免安装'] },
 
   // 开发工具新增
-  { id: 'vercel', name: 'Vercel', desc: '前端部署平台，支持Next.js/Nuxt等框架，全球CDN，开发者首选。', cat: 'dev', url: 'https://vercel.com', tag: '免费额度' },
-  { id: 'figma', name: 'Figma', desc: '在线UI设计工具，实时协作，组件库丰富，设计师和前端必备。', cat: 'dev', url: 'https://www.figma.com', tag: '免费额度' },
+  { id: 'vercel', name: 'Vercel', desc: '前端应用部署和托管平台，对Next.js、Nuxt等框架提供一级支持，Git推送自动触发构建部署，全球CDN边缘节点确保访问速度，提供Serverless函数和边缘计算能力，前端开发者首选的部署方案。', cat: 'dev', url: 'https://vercel.com', tag: '免费额度', tags: ['前端部署', 'Next.js', '全球CDN'] },
+  { id: 'figma', name: 'Figma', desc: '云端协作UI设计工具，支持实时多人协同编辑，提供矢量绘图、原型交互、组件库和设计系统管理功能，支持开发者模式自动生成CSS代码，设计师和前端工程师协作的行业标准工具。', cat: 'dev', url: 'https://www.figma.com', tag: '免费额度', tags: ['UI设计', '协作', '原型'] },
 ]
 
 // 根据 cat id 获取分类名称
