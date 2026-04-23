@@ -49,6 +49,7 @@ export default defineConfig({
       { text: '✍️ AI写作', link: '/ai-tools/writing' },
       { text: '📊 AI办公', link: '/ai-tools/office' },
       { text: '📥 下载工具', link: '/popular-tools/download' },
+      { text: '📧 联系我们', link: '/contact' },
       { text: '关于', link: '/about' },
     ],
 
