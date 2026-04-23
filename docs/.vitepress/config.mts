@@ -7,7 +7,7 @@ export default defineConfig({
   lastUpdated: true,
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.svg' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['meta', { name: 'author', content: 'tool.skillxm.cn' }],
     ['meta', { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }],
@@ -22,7 +22,7 @@ export default defineConfig({
     ['meta', { property: 'og:title', content: 'AI工具导航 - 最全AI工具与高频下载工具收录' }],
     ['meta', { property: 'og:description', content: '聚合最实用的AI工具与高频下载工具，涵盖AI对话、AI图像、AI视频、AI写作、AI办公等分类，帮助快速找到高质量AI工具。' }],
     ['meta', { property: 'og:url', content: 'https://tool.skillxm.cn/' }],
-    ['meta', { property: 'og:image', content: 'https://tool.skillxm.cn/og-image.png' }],
+    ['meta', { property: 'og:image', content: 'https://tool.skillxm.cn/og-image.svg' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
     ['meta', { property: 'og:locale:alternate', content: 'en_US' }],
 
@@ -30,12 +30,12 @@ export default defineConfig({
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'AI工具导航 - 最全AI工具与高频下载工具收录' }],
     ['meta', { name: 'twitter:description', content: '聚合最实用的AI工具与高频下载工具，涵盖AI对话、AI图像、AI视频、AI写作、AI办公等分类。' }],
-    ['meta', { name: 'twitter:image', content: 'https://tool.skillxm.cn/og-image.png' }],
+    ['meta', { name: 'twitter:image', content: 'https://tool.skillxm.cn/og-image.svg' }],
 
     ['link', { rel: 'canonical', href: 'https://tool.skillxm.cn/' }],
     ['link', { rel: 'alternate', hreflang: 'zh-CN', href: 'https://tool.skillxm.cn/' }],
-    ['link', { rel: 'dns-prefetch', href: '//fonts.googleapis.com' }],
-    ['link', { rel: 'dns-prefetch', href: '//openai.com' }],
+    ['link', { rel: 'preconnect', href: '//fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: '//openai.com' }],
   ],
 
   themeConfig: {
@@ -45,6 +45,9 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '💬 AI对话', link: '/ai-tools/chatbot' },
       { text: '🎨 AI图像', link: '/ai-tools/image' },
+      { text: '🎬 AI视频', link: '/ai-tools/video' },
+      { text: '✍️ AI写作', link: '/ai-tools/writing' },
+      { text: '📊 AI办公', link: '/ai-tools/office' },
       { text: '📥 下载工具', link: '/popular-tools/download' },
       { text: '关于', link: '/about' },
     ],
@@ -92,7 +95,4 @@ export default defineConfig({
   markdown: {
     lineNumbers: false,
   },
-
-  // 工具详情页可访问所有工具数据
-  sites: [],
 })

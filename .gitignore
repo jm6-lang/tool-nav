@@ -1,2 +1,26 @@
 node_modules
 .vitepress/dist
+.vitepress/cache
+*.local
+
+# 构建产物
+/ai-tools/
+/popular-tools/
+/assets/
+/404.html
+/about.html
+/index.html
+/hashmap.json
+/vp-icons.css
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

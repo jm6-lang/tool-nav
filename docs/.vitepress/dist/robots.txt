@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-
-# Sitemap
-Sitemap: https://tool.skillxm.cn/sitemap.xml
-
-Crawl-delay: 1
