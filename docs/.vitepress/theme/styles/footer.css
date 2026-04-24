@@ -71,6 +71,27 @@
   color: var(--vp-c-text-3);
 }
 
+.footer-friendlinks {
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: var(--vp-c-text-3);
+}
+
+.friendlinks-label {
+  margin-right: 4px;
+}
+
+.footer-friendlinks a {
+  color: var(--vp-c-text-3);
+  text-decoration: none;
+  margin: 0 8px;
+  transition: color 0.2s;
+}
+
+.footer-friendlinks a:hover {
+  color: var(--vp-c-brand-1);
+}
+
 @media (max-width: 768px) {
   .footer-links {
     grid-template-columns: 1fr;

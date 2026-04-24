@@ -75,6 +75,12 @@ export default {
               </div>
             </div>
             <div class="footer-bottom">
+              <div class="footer-friendlinks">
+                <span class="friendlinks-label">友情链接：</span>
+                <a href="https://www.skillxm.cn/" target="_blank" rel="noopener noreferrer">SkillXM</a>
+                <a href="https://docs.skillxm.cn" target="_blank" rel="noopener noreferrer">Docs</a>
+                <a href="https://ziwei.skillxm.cn" target="_blank" rel="noopener noreferrer">ZiWei</a>
+              </div>
               <p>&copy; 2026 AI工具导航 (tool.skillxm.cn) All Rights Reserved.</p>
             </div>
           </div>
