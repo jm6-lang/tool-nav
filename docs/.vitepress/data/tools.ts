@@ -155,6 +155,58 @@ export const tools = [
   // 开发工具新增
   { id: 'vercel', name: 'Vercel', desc: '前端应用部署和托管平台，对Next.js、Nuxt等框架提供一级支持，Git推送自动触发构建部署，全球CDN边缘节点确保访问速度，提供Serverless函数和边缘计算能力，前端开发者首选的部署方案。', cat: 'dev', url: 'https://vercel.com', tag: '免费额度', tags: ['前端部署', 'Next.js', '全球CDN'] },
   { id: 'figma', name: 'Figma', desc: '云端协作UI设计工具，支持实时多人协同编辑，提供矢量绘图、原型交互、组件库和设计系统管理功能，支持开发者模式自动生成CSS代码，设计师和前端工程师协作的行业标准工具。', cat: 'dev', url: 'https://www.figma.com', tag: '免费额度', tags: ['UI设计', '协作', '原型'] },
+
+  // ===== 第二批新增工具 =====
+
+  // AI对话新增
+  { id: 'doubao-pro', name: '豆包·实时对话', desc: '字节跳动推出的实时语音AI助手，支持自然流畅的语音对话交互，可实时打断和追问，内置视觉能力可识别图片内容，提供翻译、解题、闲聊等多种场景，免费使用体验接近GPT-4o语音模式。', cat: 'chatbot', url: 'https://www.doubao.com/chat', tag: '免费', tags: ['语音对话', '实时交互', '视觉识别'] },
+  { id: 'hunyuan', name: '腾讯混元', desc: '腾讯混元大模型，支持多轮对话、长文档解析、图像理解和代码生成，深度集成微信、QQ、腾讯文档等生态，提供企业级API服务，中文理解能力出色，适合办公和开发场景。', cat: 'chatbot', url: 'https://hunyuan.tencent.com', tag: '免费额度', tags: ['腾讯生态', '企业级', '多模态'] },
+  { id: 'stepfun', name: '阶跃星辰', desc: '阶跃星辰推出的Step系列大模型，在中文理解和多模态方面表现突出，支持长文本处理、图像理解和代码生成，提供免费在线体验和API服务，国产大模型新锐力量。', cat: 'chatbot', url: 'https://platform.stepfun.com', tag: '免费额度', tags: ['多模态', '长文本', '国产新锐'] },
+  { id: 'minimax', name: 'MiniMax', desc: 'MiniMax推出的海螺AI助手，支持高质量语音合成、多轮对话和内容创作，语音效果接近真人，支持角色扮演和情感表达，在语音交互和娱乐社交场景表现亮眼。', cat: 'chatbot', url: 'https://www.minimaxi.com', tag: '免费额度', tags: ['语音合成', '角色扮演', '情感表达'] },
+
+  // AI图像新增
+  { id: 'krea', name: 'Krea AI', desc: 'AI图像生成和增强平台，提供实时图像生成、高清放大、风格迁移和AI训练功能，支持实时预览和参数调节，界面直观易用，适合设计师快速探索创意方向。', cat: 'image', url: 'https://www.krea.ai', tag: '免费额度', tags: ['实时生成', '图像增强', '风格迁移'] },
+  { id: 'clipdrop', name: 'Clipdrop', desc: 'Stability AI旗下全能AI图像编辑工具，提供一键抠图、背景替换、图像修复、文字移除、AI重绘和高清放大等功能，支持网页和移动端使用，免费版功能已足够日常使用。', cat: 'image', url: 'https://clipdrop.co', tag: '免费额度', tags: ['图像编辑', '一键抠图', 'AI修复'] },
+  { id: 'tensorart', name: 'Tensor.Art', desc: '在线Stable Diffusion图像生成平台，提供海量社区模型和LoRA，支持ComfyUI工作流在线运行，免费用户每日可生成100张图片，模型库丰富，二次元和写实风格均有大量优质模型。', cat: 'image', url: 'https://tensor.art', tag: '免费额度', tags: ['SD在线', '模型库', '社区分享'] },
+
+  // AI视频新增
+  { id: 'minimax-video', name: '海螺AI视频', desc: 'MiniMax推出的AI视频生成工具，支持文本和图片生成高质量视频，在人物动作自然度和场景一致性方面表现优异，提供视频延长和风格化功能，免费试用额度充足。', cat: 'video', url: 'https://hailuoai.video', tag: '免费额度', tags: ['文生视频', '图生视频', '人物动作'] },
+  { id: 'pixverse', name: 'PixVerse', desc: 'AI视频生成和编辑平台，支持文生视频、图生视频和视频风格化，提供角色一致性保持功能，可生成连贯的多场景视频内容，免费使用且效果出色，短视频创作者的实用工具。', cat: 'video', url: 'https://pixverse.ai', tag: '免费', tags: ['角色一致', '风格化', '短视频'] },
+
+  // AI写作新增
+  { id: 'monica', name: 'Monica', desc: '浏览器AI助手插件，集成GPT-4和Claude等模型，支持网页内容总结、邮件智能回复、翻译润色和文案生成，侧边栏随时调用无需切换页面，支持Chrome和Edge浏览器。', cat: 'writing', url: 'https://monica.im', tag: '免费额度', tags: ['浏览器插件', '侧边栏', '多模型'] },
+  { id: 'writefull', name: 'Writefull', desc: 'AI学术写作辅助工具，专为科研人员设计，提供语法检查、学术用语优化、自动改写和标题生成功能，支持Word和Overleaf集成，可检测AI生成内容比例，学术论文写作的得力助手。', cat: 'writing', url: 'https://www.writefull.com', tag: '免费额度', tags: ['学术写作', '语法检查', 'Overleaf'] },
+
+  // AI音频新增
+  { id: 'capcut-voiceover', name: 'CapCut配音', desc: '剪映国际版的AI配音功能，提供数百种多语言AI音色，支持情感调节和语速控制，与视频编辑无缝集成，可自动生成字幕时间轴，TikTok创作者广泛使用的免费配音工具。', cat: 'audio', url: 'https://www.capcut.com', tag: '免费', tags: ['多语言', '情感调节', '视频集成'] },
+  { id: 'bark', name: 'Bark', desc: 'Suno推出的开源文本转语音模型，支持多语言语音生成，可模拟笑声、停顿、语气变化等非语言声音，支持音乐和环境音效生成，完全开源可本地部署，开发者友好。', cat: 'audio', url: 'https://github.com/suno-ai/bark', tag: '免费开源', tags: ['开源TTS', '非语言声音', '本地部署'] },
+
+  // AI办公新增
+  { id: 'ai-ppt', name: 'AiPPT', desc: '国产AI演示文稿生成平台，输入主题即可一键生成完整PPT，提供海量行业模板和智能排版功能，支持在线编辑和团队协作，免费用户每日可生成多份演示文稿，国内访问速度快。', cat: 'office', url: 'https://www.aippt.cn', tag: '免费额度', tags: ['一键生成', '行业模板', '国产'] },
+  { id: 'napkin', name: 'Napkin AI', desc: 'AI图表和可视化工具，将文字内容自动转换为精美的流程图、思维导图和信息图，支持多种布局和样式选择，一键美化文档中的概念和流程，适合商务汇报和知识分享场景。', cat: 'office', url: 'https://napkin.ai', tag: '免费试用', tags: ['文字转图表', '思维导图', '信息图'] },
+
+  // 浏览器新增
+  { id: 'opera', name: 'Opera', desc: '老牌浏览器，内置免费VPN和广告拦截器，集成AI助手Aria，支持快速社交媒体消息面板和流量节省模式，桌面端和移动端体验一致，注重隐私和效率的用户值得尝试。', cat: 'browser', url: 'https://www.opera.com', tag: '免费', tags: ['内置VPN', '广告拦截', 'AI助手'] },
+  { id: 'raycast', name: 'Raycast', desc: 'macOS效率启动器，替代Spotlight的超级工具，内置AI对话、窗口管理、剪贴板历史、代码片段管理和团队协作功能，扩展生态丰富，Mac用户提升效率的必备工具。', cat: 'browser', url: 'https://www.raycast.com', tag: '免费额度', tags: ['macOS', '效率工具', '扩展生态'] },
+
+  // 下载工具新增
+  { id: 'gopeed', name: 'Gopeed', desc: '新一代开源下载管理器，支持HTTP、BT和磁力链下载，采用Rust+Flutter开发，界面现代简洁，支持全平台（Windows/macOS/Linux/Android），下载速度优秀，IDM的轻量替代品。', cat: 'download', url: 'https://gopeed.com', tag: '免费开源', tags: ['全平台', 'BT磁力', '轻量'] },
+  { id: 'filezilla', name: 'FileZilla', desc: '知名开源FTP/SFTP文件传输工具，支持断点续传、拖拽上传和站点管理器，跨平台支持Windows/macOS/Linux，界面经典功能完善，服务器运维和网站管理的必备工具。', cat: 'download', url: 'https://filezilla-project.org', tag: '免费开源', tags: ['FTP传输', '站点管理', '跨平台'] },
+
+  // 系统工具新增
+  { id: 'ditto', name: 'Ditto', desc: 'Windows剪贴板管理工具，自动保存所有复制历史，支持搜索、分组、置顶和快捷键调用，可保存文本、图片和HTML格式内容，安装后后台静默运行，办公效率提升神器。', cat: 'system', url: 'https://ditto-cp.sourceforge.io', tag: '免费开源', tags: ['剪贴板', '历史记录', '快捷键'] },
+  { id: 'utools', name: 'uTools', desc: '国产全能效率工具，类似macOS Alfred的Windows版超级启动器，支持快速搜索、计算器、翻译、编码转换等数百个插件，本地化程度高，支持数据同步，国内用户的首选效率工具。', cat: 'system', url: 'https://www.u.tools', tag: '免费额度', tags: ['效率启动器', '插件生态', '国产'] },
+  { id: 'quicker', name: 'Quicker', desc: 'Windows效率工具，通过鼠标中键呼出快捷面板，可一键执行常用操作和复杂流程，支持动作库分享和自定义开发，大幅减少重复操作，办公和设计用户的效率倍增器。', cat: 'system', url: 'https://www.getquicker.net', tag: '免费额度', tags: ['快捷面板', '动作库', '自动化'] },
+  { id: 'rustdesk', name: 'RustDesk', desc: '开源远程桌面控制软件，支持Windows/macOS/Linux/Android/iOS全平台，可自建中继服务器确保数据安全，画面流畅延迟低，功能媲美TeamViewer但完全免费，个人和企业均可使用。', cat: 'system', url: 'https://rustdesk.com', tag: '免费开源', tags: ['远程控制', '全平台', '自建服务器'] },
+
+  // 开发工具新增
+  { id: 'windsurf', name: 'Windsurf', desc: 'Codeium推出的AI代码编辑器，基于VS Code深度定制，内置Cascade AI对话式编程助手，支持多文件上下文理解和智能代码补全，免费个人版功能强大，Cursor的有力竞争者。', cat: 'dev', url: 'https://codeium.com/windsurf', tag: '免费额度', tags: ['AI编程', 'VS Code', 'Cascade'] },
+  { id: 'supabase', name: 'Supabase', desc: '开源的Firebase替代方案，提供PostgreSQL数据库、实时订阅、身份认证、存储和Edge Functions全栈后端服务，免费额度充足，本地开发体验友好，全栈开发者的首选BaaS平台。', cat: 'dev', url: 'https://supabase.com', tag: '免费额度', tags: ['数据库', '实时订阅', 'BaaS'] },
+  { id: 'insomnia', name: 'Insomnia', desc: '开源API开发和测试工具，支持GraphQL和REST API调试，提供环境变量管理、自动化测试和团队协作功能，界面现代简洁，支持插件扩展，Postman的优秀免费替代品。', cat: 'dev', url: 'https://insomnia.rest', tag: '免费开源', tags: ['API调试', 'GraphQL', '自动化测试'] },
+  { id: 'linear', name: 'Linear', desc: '现代化项目管理工具，专为软件团队设计，界面极简流畅，支持Issue追踪、Sprint规划和Roadmap管理，集成GitHub和Slack，键盘操作高效，追求极致开发体验的团队首选。', cat: 'dev', url: 'https://linear.app', tag: '免费额度', tags: ['项目管理', 'Issue追踪', 'Sprint'] },
+  { id: 'vercel-ai', name: 'Vercel AI SDK', desc: 'Vercel推出的AI应用开发工具包，提供React/Vue/Svelte等框架的AI组件和Hook，内置流式响应、多模型支持和边缘运行能力，帮助开发者快速构建AI驱动的Web应用。', cat: 'dev', url: 'https://sdk.vercel.ai', tag: '免费开源', tags: ['AI SDK', '流式响应', 'React'] },
+  { id: 'replit', name: 'Replit', desc: '在线IDE和AI编程平台，支持50+种编程语言，内置AI代码助手Ghostwriter，提供即时运行环境和协作编程功能，无需本地配置即可开发部署全栈应用，编程学习和快速原型的理想平台。', cat: 'dev', url: 'https://replit.com', tag: '免费额度', tags: ['在线IDE', '多语言', '协作编程'] },
+  { id: 'dify', name: 'Dify', desc: '开源LLM应用开发平台，提供可视化的AI应用构建工具，支持工作流编排、RAG知识库、Agent智能体和模型管理，可一键部署企业级AI应用，支持GPT、Claude、通义千问等主流模型。', cat: 'dev', url: 'https://dify.ai', tag: '免费开源', tags: ['LLM平台', 'RAG', 'Agent'] },
 ]
 
 // 根据 cat id 获取分类名称
