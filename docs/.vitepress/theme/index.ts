@@ -80,6 +80,7 @@ export default {
                 <a href="https://www.skillxm.cn/" target="_blank" rel="noopener noreferrer">SkillXM</a>
                 <a href="https://docs.skillxm.cn" target="_blank" rel="noopener noreferrer">Docs</a>
                 <a href="https://ziwei.skillxm.cn" target="_blank" rel="noopener noreferrer">ZiWei</a>
+                <a href="https://www.skillxm.cn" target="_blank" rel="noopener noreferrer">教材工具箱</a>
               </div>
               <p>&copy; 2026 AI工具导航 (tool.skillxm.cn) All Rights Reserved.</p>
             </div>
