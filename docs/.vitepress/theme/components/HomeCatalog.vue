@@ -119,7 +119,7 @@
           <div class="card-header">
             <div class="card-icon-wrap">
               <img
-                :src="`https://www.google.com/s2/favicons?domain=${toolDomain(tool.url)}&sz=64`"
+                :src="`https://t0.gstatic.cn/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://${toolDomain(tool.url)}&size=64`"
                 :alt="tool.name + ' 图标'"
                 class="card-icon"
                 loading="lazy"
@@ -204,7 +204,7 @@ const onFaviconError = (e: Event) => {
   const target = e.target as HTMLImageElement
   const domain = target.dataset.domain
   if (domain) {
-    target.src = `https://favicon.im/${domain}`
+    target.src = `https://www.google.com/s2/favicons?domain=${domain}&sz=64`
     target.addEventListener('error', onFaviconSecondError, { once: true })
   } else {
     showFallback(target)
@@ -213,7 +213,13 @@ const onFaviconError = (e: Event) => {
 
 const onFaviconSecondError = (e: Event) => {
   const target = e.target as HTMLImageElement
-  showFallback(target)
+  const domain = target.dataset.domain
+  if (domain) {
+    target.src = `https://favicon.im/${domain}`
+    target.addEventListener('error', () => showFallback(target), { once: true })
+  } else {
+    showFallback(target)
+  }
 }
 
 const showFallback = (img: HTMLImageElement) => {
