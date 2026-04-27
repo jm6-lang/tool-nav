@@ -207,6 +207,58 @@ export const tools = [
   { id: 'vercel-ai', name: 'Vercel AI SDK', desc: 'Vercel推出的AI应用开发工具包，提供React/Vue/Svelte等框架的AI组件和Hook，内置流式响应、多模型支持和边缘运行能力，帮助开发者快速构建AI驱动的Web应用。', cat: 'dev', url: 'https://sdk.vercel.ai', tag: '免费开源', tags: ['AI SDK', '流式响应', 'React'] },
   { id: 'replit', name: 'Replit', desc: '在线IDE和AI编程平台，支持50+种编程语言，内置AI代码助手Ghostwriter，提供即时运行环境和协作编程功能，无需本地配置即可开发部署全栈应用，编程学习和快速原型的理想平台。', cat: 'dev', url: 'https://replit.com', tag: '免费额度', tags: ['在线IDE', '多语言', '协作编程'] },
   { id: 'dify', name: 'Dify', desc: '开源LLM应用开发平台，提供可视化的AI应用构建工具，支持工作流编排、RAG知识库、Agent智能体和模型管理，可一键部署企业级AI应用，支持GPT、Claude、通义千问等主流模型。', cat: 'dev', url: 'https://dify.ai', tag: '免费开源', tags: ['LLM平台', 'RAG', 'Agent'] },
+
+  // ===== 第三批新增工具 =====
+
+  // AI对话新增
+  { id: 'mistral', name: 'Mistral AI', desc: '法国Mistral AI推出的开源大模型，Mistral Large在多语言理解和代码生成方面表现优异，支持128K上下文窗口，提供API服务和Le Chat在线对话，欧洲AI领域的领军者。', cat: 'chatbot', url: 'https://chat.mistral.ai', tag: '免费额度', tags: ['开源', '多语言', '欧洲'] },
+  { id: 'copilot-chat', name: 'Microsoft Copilot', desc: '微软AI助手，基于GPT-4模型，深度集成Windows 11、Edge浏览器和Office 365，支持网页总结、图像生成、代码编写和文档创作，Windows用户免费使用，是最便捷的AI入口之一。', cat: 'chatbot', url: 'https://copilot.microsoft.com', tag: '免费', tags: ['微软生态', 'GPT-4', '图像生成'] },
+  { id: 'yi-lightning', name: '零一万物', desc: '李开复创办的零一万物推出的Yi系列大模型，Yi-Lightning在中文理解和代码能力方面表现突出，API响应速度极快，价格低廉，提供在线对话和API服务，国产大模型性价比之选。', cat: 'chatbot', url: 'https://www.01.ai', tag: '免费额度', tags: ['国产', '高速响应', '低成本'] },
+
+  // AI图像新增
+  { id: 'photoroom', name: 'Photoroom', desc: 'AI电商图片编辑工具，一键移除背景、替换场景、生成商品阴影和反光效果，支持批量处理和品牌模板，电商卖家的效率神器，免费版每月可处理250张图片。', cat: 'image', url: 'https://www.photoroom.com', tag: '免费额度', tags: ['电商修图', '背景替换', '批量处理'] },
+  { id: 'upscale', name: 'Upscayl', desc: '开源免费AI图片放大工具，支持本地离线运行，使用Real-ESRGAN等模型将图片放大4倍且保持清晰度，支持批量处理和GPU加速，完全免费无水印，设计师和摄影师的实用工具。', cat: 'image', url: 'https://www.upscayl.org', tag: '免费开源', tags: ['图片放大', '离线运行', '批量处理'] },
+  { id: 'bigjpg', name: 'BigJPG', desc: 'AI图片无损放大工具，使用深度卷积神经网络将图片放大2-16倍，支持动漫和照片两种模式，放大后边缘清晰无锯齿，在线即用无需下载，中文界面友好。', cat: 'image', url: 'https://bigjpg.com', tag: '免费额度', tags: ['无损放大', '动漫优化', '中文友好'] },
+
+  // AI视频新增
+  { id: 'heygen', name: 'HeyGen', desc: 'AI数字人视频生成平台，输入文字即可生成多语言数字人口播视频，提供200+预设数字人形象和自定义形象克隆功能，支持40+种语言，企业培训、营销视频和产品介绍的高效制作工具。', cat: 'video', url: 'https://www.heygen.com', tag: '免费试用', tags: ['数字人', '多语言', '形象克隆'] },
+  { id: 'capcut-web', name: '剪映网页版', desc: '剪映在线版，无需下载即可使用AI视频剪辑功能，提供智能字幕、AI配音、画面裁剪、模板套用等核心功能，支持团队协作和云存储，适合轻量级视频快速编辑。', cat: 'video', url: 'https://www.capcut.com/editor', tag: '免费', tags: ['在线剪辑', '智能字幕', '模板丰富'] },
+
+  // AI写作新增
+  { id: 'jinshan', name: '金山文档AI', desc: '金山文档内置AI功能，支持智能写作、文档润色、表格公式生成和数据分析，多人实时协作编辑，与WPS生态无缝打通，国内企业和个人用户的免费在线办公选择。', cat: 'writing', url: 'https://www.kdocs.cn', tag: '免费', tags: ['在线文档', '多人协作', 'AI润色'] },
+  { id: 'rytr', name: 'Rytr', desc: 'AI写作助手，支持40+种使用场景和30+种语言，提供博客、广告、邮件、社交媒体等多种文案模板，内置SEO优化和抄袭检测功能，免费版每月可生成10000字，适合个人创作者和小团队。', cat: 'writing', url: 'https://rytr.me', tag: '免费额度', tags: ['多场景', 'SEO优化', '抄袭检测'] },
+
+  // AI音频新增
+  { id: 'volcengine-tts', name: '火山引擎语音合成', desc: '字节跳动火山引擎推出的语音合成服务，提供数百种高品质中文音色，支持情感合成、方言识别和声音克隆，API调用简单，免费额度充足，适合开发者和企业集成语音能力。', cat: 'audio', url: 'https://www.volcengine.com/product/speech-to-text', tag: '免费额度', tags: ['中文音色', '声音克隆', 'API'] },
+  { id: 'fish-audio', name: 'Fish Audio', desc: '开源AI语音合成平台，支持声音克隆和自定义音色训练，提供多语言语音生成和API接口，社区活跃模型丰富，免费用户可体验核心功能，开发者和内容创作者的语音合成新选择。', cat: 'audio', url: 'https://fish.audio', tag: '免费额度', tags: ['声音克隆', '开源', '多语言'] },
+
+  // AI办公新增
+  { id: 'feishu', name: '飞书', desc: '字节跳动推出的企业协作平台，集成即时通讯、在线文档、视频会议、项目管理等功能，内置飞书AI助手支持智能总结、翻译和写作，多维表格功能强大，中小团队协作的首选工具。', cat: 'office', url: 'https://www.feishu.cn', tag: '免费额度', tags: ['团队协作', '在线文档', 'AI助手'] },
+  { id: 'airtable', name: 'Airtable', desc: '灵活的在线数据库和项目管理工具，结合电子表格的易用性和数据库的强大功能，支持视图切换、自动化工作流和AI集成，提供丰富的模板库，适合项目管理和内容运营团队。', cat: 'office', url: 'https://www.airtable.com', tag: '免费额度', tags: ['数据库', '自动化', '视图切换'] },
+
+  // 浏览器新增
+  { id: 'safari', name: 'Safari', desc: 'Apple推出的macOS和iOS自带浏览器，基于WebKit引擎，与苹果生态深度集成，支持iCloud标签页同步、阅读模式和隐私报告，能效表现优秀，Mac和iPhone用户的最省电选择。', cat: 'browser', url: 'https://www.apple.com/safari', tag: '免费', tags: ['Apple生态', '省电', '隐私报告'] },
+
+  // 下载工具新增
+  { id: 'fdm', name: 'Free Download Manager', desc: '免费开源的下载管理器，支持HTTP/HTTPS/FTP/BT/磁力链下载，提供浏览器集成、视频下载和批量下载功能，界面简洁功能完善，全平台支持，IDM的最佳免费替代方案。', cat: 'download', url: 'https://www.freedownloadmanager.org', tag: '免费开源', tags: ['全平台', 'BT磁力', '视频下载'] },
+  { id: 'electerm', name: 'Electerm', desc: '开源的SSH/SFTP终端工具，支持多平台和SSH隧道，内置SFTP文件管理器和服务器管理器，界面现代化，支持自定义主题和快捷键，服务器运维和开发人员的免费工具。', cat: 'download', url: 'https://electerm.html5.org', tag: '免费开源', tags: ['SSH终端', 'SFTP', '服务器管理'] },
+
+  // 系统工具新增
+  { id: 'geekbench', name: 'Geekbench', desc: '专业的跨平台性能测试工具，提供CPU单核和多核基准测试以及GPU计算能力评估，数据库包含海量设备跑分数据可横向对比，支持Windows/macOS/Linux/iOS/Android，硬件评测的行业标准。', cat: 'system', url: 'https://www.geekbench.com', tag: '免费', tags: ['性能测试', '跨平台', '跑分对比'] },
+  { id: 'crystaldiskinfo', name: 'CrystalDiskInfo', desc: 'Windows硬盘健康监测工具，支持S.M.A.R.T.技术实时监控硬盘温度、读写速度和健康状态，支持HDD/SSD/NVMe全类型硬盘，界面简洁直观，提前预警硬盘故障保护数据安全。', cat: 'system', url: 'https://crystalmark.info/en/software/crystaldiskinfo', tag: '免费开源', tags: ['硬盘监测', 'S.M.A.R.T.', '故障预警'] },
+  { id: 'space-sniffer', name: 'SpaceSniffer', desc: 'Windows磁盘空间可视化分析工具，以树状图直观展示文件夹和文件的磁盘占用情况，帮助用户快速定位大文件和冗余数据释放空间，免安装单文件运行，绿色轻量。', cat: 'system', url: 'https://uderzo.it/main/products/space_sniffer', tag: '免费', tags: ['磁盘分析', '可视化', '绿色免安装'] },
+  { id: 'poweriso', name: 'PowerISO', desc: '全能光盘镜像处理工具，支持创建、编辑、提取和刻录ISO/BIN/NRG等格式镜像文件，内置虚拟光驱可免光盘运行程序，支持启动U盘制作，系统安装和软件分发的必备工具。', cat: 'system', url: 'https://www.poweriso.com', tag: '付费', tags: ['ISO镜像', '虚拟光驱', '启动U盘'] },
+  { id: 'shutup10', name: 'O&O ShutUp10', desc: 'Windows隐私优化工具，一键关闭Windows 10/11中的遥测数据收集、Cortana、定位服务等隐私相关功能，提供推荐配置和自定义选项，所有修改均可撤销，保护用户隐私的必备工具。', cat: 'system', url: 'https://www.oo-software.com/en/shutup10', tag: '免费', tags: ['隐私保护', '系统优化', '一键配置'] },
+
+  // 开发工具新增
+  { id: 'cursor-alt', name: 'Warp', desc: '下一代终端工具，基于Rust构建，支持AI命令搜索、智能自动补全和命令块编辑，内置协作功能可共享终端会话，界面现代美观，macOS和Linux开发者的终端升级之选。', cat: 'dev', url: 'https://www.warp.dev', tag: '免费额度', tags: ['AI终端', '命令补全', '协作'] },
+  { id: 'cloudflare-workers', name: 'Cloudflare Workers', desc: 'Cloudflare的无服务器计算平台，在全球300+城市边缘节点运行JavaScript/TypeScript代码，冷启动时间极短，免费额度每天10万次请求，适合部署API、网站和全栈应用。', cat: 'dev', url: 'https://workers.cloudflare.com', tag: '免费额度', tags: ['边缘计算', '无服务器', '全球CDN'] },
+  { id: 'netlify', name: 'Netlify', desc: '现代Web项目部署平台，支持静态站点和Serverless函数一键部署，提供自动HTTPS、表单处理、身份认证和边缘函数等功能，与GitHub深度集成，前端开发者最爱的部署平台之一。', cat: 'dev', url: 'https://www.netlify.com', tag: '免费额度', tags: ['自动部署', 'Serverless', '表单处理'] },
+  { id: 'tailwindcss', name: 'Tailwind CSS', desc: '实用优先的CSS框架，通过组合原子类快速构建自定义UI，无需编写自定义CSS即可实现精美设计，提供设计系统和组件库，与Vue/React等框架完美配合，现代前端开发的首选样式方案。', cat: 'dev', url: 'https://tailwindcss.com', tag: '免费开源', tags: ['CSS框架', '原子类', '设计系统'] },
+  { id: 'threejs', name: 'Three.js', desc: '最流行的Web 3D图形库，基于WebGL封装，提供场景、相机、光照、材质等3D渲染全套功能，支持模型加载、粒子系统和后处理效果，是Web 3D应用开发的基础框架。', cat: 'dev', url: 'https://threejs.org', tag: '免费开源', tags: ['WebGL', '3D渲染', '模型加载'] },
+  { id: 'posthog', name: 'PostHog', desc: '开源的产品分析平台，提供事件追踪、用户分析、A/B测试、功能开关和会话回放等功能，免费版支持每月100万次事件，数据完全自主可控，替代Google Analytics和Mixpanel的开源方案。', cat: 'dev', url: 'https://posthog.com', tag: '免费开源', tags: ['产品分析', 'A/B测试', '会话回放'] },
+  { id: 'sentry', name: 'Sentry', desc: '应用错误监控和性能追踪平台，实时捕获前端和后端的异常错误，提供详细的错误堆栈、用户影响范围和发布关联分析，支持30+种编程语言和框架，保障线上应用稳定运行。', cat: 'dev', url: 'https://sentry.io', tag: '免费额度', tags: ['错误监控', '性能追踪', '多语言'] },
+  { id: 'n8n', name: 'n8n', desc: '开源的工作流自动化平台，提供300+内置集成节点，支持API连接、数据同步、定时任务和条件分支，可视化拖拽构建自动化流程，可自建服务器，Zapier和Make的开源替代方案。', cat: 'dev', url: 'https://n8n.io', tag: '免费开源', tags: ['工作流', '自动化', '自建部署'] },
 ]
 
 // 根据 cat id 获取分类名称
